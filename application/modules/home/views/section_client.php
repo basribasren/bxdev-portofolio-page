@@ -8,42 +8,42 @@
 		<div class="clients-carousel owl-carousel" id="clients-carousel">
 			<!-- item -->
 			<div class="clients-carousel-item">
-				<img src="<?php echo base_url(); ?>assets/basri/img/clients/1.png" alt="">
+				<img src="<?php echo base_url(); ?>assets/img/clients/1.png" alt="">
 			</div>
 			<!-- /item -->
 			<!-- item -->
 			<div class="clients-carousel-item">
-				<img src="<?php echo base_url(); ?>assets/basri/img/clients/2.png" alt="">
+				<img src="<?php echo base_url(); ?>assets/img/clients/2.png" alt="">
 			</div>
 			<!-- /item -->
 			<!-- item -->
 			<div class="clients-carousel-item">
-				<img src="<?php echo base_url(); ?>assets/basri/img/clients/3.png" alt="">
+				<img src="<?php echo base_url(); ?>assets/img/clients/3.png" alt="">
 			</div>
 			<!-- /item -->
 			<!-- item -->
 			<div class="clients-carousel-item">
-				<img src="<?php echo base_url(); ?>assets/basri/img/clients/4.png" alt="">
+				<img src="<?php echo base_url(); ?>assets/img/clients/4.png" alt="">
 			</div>
 			<!-- /item -->
 			<!-- item -->
 			<div class="clients-carousel-item">
-				<img src="<?php echo base_url(); ?>assets/basri/img/clients/5.png" alt="">
+				<img src="<?php echo base_url(); ?>assets/img/clients/5.png" alt="">
 			</div>
 			<!-- /item -->
 			<!-- item -->
 			<div class="clients-carousel-item">
-				<img src="<?php echo base_url(); ?>assets/basri/img/clients/6.png" alt="">
+				<img src="<?php echo base_url(); ?>assets/img/clients/6.png" alt="">
 			</div>
 			<!-- /item -->
 			<!-- item -->
 			<div class="clients-carousel-item">
-				<img src="<?php echo base_url(); ?>assets/basri/img/clients/7.png" alt="">
+				<img src="<?php echo base_url(); ?>assets/img/clients/7.png" alt="">
 			</div>
 			<!-- /item -->
 			<!-- item -->
 			<div class="clients-carousel-item">
-				<img src="<?php echo base_url(); ?>assets/basri/img/clients/8.png" alt="">
+				<img src="<?php echo base_url(); ?>assets/img/clients/8.png" alt="">
 			</div>
 			<!-- /item -->
 		</div>

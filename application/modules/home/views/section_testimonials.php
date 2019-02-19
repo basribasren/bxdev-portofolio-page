@@ -26,7 +26,7 @@
 								<div class="testimonial-credits">
 									<!-- picture -->
 									<div class="testimonial-picture">
-										<img src="<?php echo base_url(); ?>assets/basri/img/team2.jpg" alt=""/>
+										<img src="<?php echo base_url(); ?>assets/img/team2.jpg" alt=""/>
 									</div>							
 									<!-- /picture -->
 									<p class="testimonial-author">Melissa Alvarez</p>
@@ -46,7 +46,7 @@
 								<div class="testimonial-credits">
 									<!-- picture -->
 									<div class="testimonial-picture">
-										<img src="<?php echo base_url(); ?>assets/basri/img/team1.jpg" alt=""/>
+										<img src="<?php echo base_url(); ?>assets/img/team1.jpg" alt=""/>
 									</div>							
 									<!-- /picture -->
 									<p class="testimonial-author">John Rex</p>
@@ -66,7 +66,7 @@
 								<div class="testimonial-credits">
 									<!-- picture -->
 									<div class="testimonial-picture">
-										<img src="<?php echo base_url(); ?>assets/basri/img/team3.jpg" alt=""/>
+										<img src="<?php echo base_url(); ?>assets/img/team3.jpg" alt=""/>
 									</div>							
 									<!-- /picture -->
 									<p class="testimonial-author">Jhonathan Smith</p>

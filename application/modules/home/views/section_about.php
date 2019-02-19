@@ -9,7 +9,7 @@
 			<!-- Left Column -->
 			<div class="col-sm-6 col-no-padding">
 				<div class="about-picture" id="about-picture">
-					<img src="<?php echo base_url(); ?>assets/basri/img/about-image.jpg" alt="" class="responsive-image">
+					<img src="<?php echo base_url(); ?>assets/img/about-image.jpg" alt="" class="responsive-image">
 				</div>
 			</div>			
 			<!-- /Left Column -->

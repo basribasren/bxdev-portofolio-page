@@ -11,26 +11,26 @@
 	    <title>Basri Basren</title>
 
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-		<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/basri/favicon2.ico" type="image/x-icon">
-		<link rel="icon" href="<?php echo base_url(); ?>assets/basri/favicon2.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/favicon2.ico" type="image/x-icon">
+		<link rel="icon" href="<?php echo base_url(); ?>assets/favicon2.ico" type="image/x-icon">
 
 		<!-- Google Web Fonts -->
 		<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 
-		<link href="<?php echo base_url(); ?>assets/basri/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<!-- Font Awesome -->
-		<link href="<?php echo base_url(); ?>assets/basri/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 		<!-- animate.css -->
-		<link href="<?php echo base_url(); ?>assets/basri/vendor/animate.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/vendor/animate.css" rel="stylesheet">
 		<!-- fancybox.css -->
-		<link href="<?php echo base_url(); ?>assets/basri/vendor/fancybox/jquery.fancybox.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/vendor/fancybox/jquery.fancybox.css" rel="stylesheet">
 		<!-- owl carousel -->
-		<link href="<?php echo base_url(); ?>assets/basri/vendor/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
-		<link href="<?php echo base_url(); ?>assets/basri/vendor/owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/vendor/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/vendor/owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet">
 		<!-- Main Styles -->
-		<link href="<?php echo base_url(); ?>assets/basri/css/styles.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/css/styles.css" rel="stylesheet">
 	</head>
 
 	<body>
@@ -44,7 +44,7 @@
 		    </div>    
 		    <!-- Edit With Your Name -->
 		    <div class="loader-name" id="loader-name">
-		      <img src="<?php echo base_url(); ?>assets/basri/img/logo-negative.png" alt="">
+		      <img src="<?php echo base_url(); ?>assets/img/logo-negative.png" alt="">
 		    </div>
 		    <!-- /Edit With Your Name -->
 		  </div>   
@@ -65,26 +65,26 @@
 		<?php $this->load->view('layout/footer') ?>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="<?php echo base_url(); ?>assets/basri/vendor/jquery.min.js"></script>
+		<script src="<?php echo base_url(); ?>assets/vendor/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="<?php echo base_url(); ?>assets/basri/vendor/bootstrap/js/bootstrap.min.js"></script>
-		<script src="<?php echo base_url(); ?>assets/basri/vendor/validate.js"></script>
+		<script src="<?php echo base_url(); ?>assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="<?php echo base_url(); ?>assets/vendor/validate.js"></script>
 		<!-- Owl Caroulsel -->
-		<script src="<?php echo base_url(); ?>assets/basri/vendor/owl.carousel/owl-carousel/owl.carousel.js"></script>
+		<script src="<?php echo base_url(); ?>assets/vendor/owl.carousel/owl-carousel/owl.carousel.js"></script>
 		<!-- Waypoints -->
-		<script src="<?php echo base_url(); ?>assets/basri/vendor/waypoints.min.js"></script>
+		<script src="<?php echo base_url(); ?>assets/vendor/waypoints.min.js"></script>
 		<!-- Fancybox -->
-		<script src="<?php echo base_url(); ?>assets/basri/vendor/fancybox/jquery.fancybox.js"></script>
+		<script src="<?php echo base_url(); ?>assets/vendor/fancybox/jquery.fancybox.js"></script>
 		<!-- Owl Caroulsel -->
-		<script src="<?php echo base_url(); ?>assets/basri/vendor/owl.carousel/owl-carousel/owl.carousel.js"></script>
+		<script src="<?php echo base_url(); ?>assets/vendor/owl.carousel/owl-carousel/owl.carousel.js"></script>
 		<!-- Images Loaded-->
-		<script src="<?php echo base_url(); ?>assets/basri/vendor/imagesloaded.pkgd.min.js"></script>
+		<script src="<?php echo base_url(); ?>assets/vendor/imagesloaded.pkgd.min.js"></script>
 		<!-- Double Tap to Go -->
-		<script src="<?php echo base_url(); ?>assets/basri/vendor/doubletaptogo.min.js"></script>
+		<script src="<?php echo base_url(); ?>assets/vendor/doubletaptogo.min.js"></script>
 		<!-- Cross-browser -->
-		<script src="<?php echo base_url(); ?>assets/basri/vendor/cross-browser.js"></script>
+		<script src="<?php echo base_url(); ?>assets/vendor/cross-browser.js"></script>
 		<!-- Main Scripts -->
-		<script src="<?php echo base_url(); ?>assets/basri/js/main.js"></script>
+		<script src="<?php echo base_url(); ?>assets/js/main.js"></script>
 
 	</body>
 </html>

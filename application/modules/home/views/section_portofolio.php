@@ -22,7 +22,7 @@
 			<!-- item -->
 			<div class="col-sm-4">
 				<div class="portfolio-item filter-item cat-cultural cat-featured">
-					<a href="<?php echo base_url(); ?>assets/basri/img/portfolio/p1.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/basri/img/portfolio/p1.jpg');">
+					<a href="<?php echo base_url(); ?>assets/img/portfolio/p1.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p1.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
 							<div class="portfolio-description">
@@ -41,7 +41,7 @@
 			<!-- item -->
 			<div class="col-sm-4">
 				<div class="portfolio-item filter-item cat-business cat-featured">
-					<a href="<?php echo base_url(); ?>assets/basri/img/portfolio/p2.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/basri/img/portfolio/p2.jpg');">
+					<a href="<?php echo base_url(); ?>assets/img/portfolio/p2.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p2.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
 							<div class="portfolio-description">
@@ -60,7 +60,7 @@
 			<!-- item -->
 			<div class="col-sm-4">
 				<div class="portfolio-item filter-item cat-cultural cat-featured">
-					<a href="<?php echo base_url(); ?>assets/basri/img/portfolio/p3.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/basri/img/portfolio/p3.jpg');">
+					<a href="<?php echo base_url(); ?>assets/img/portfolio/p3.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p3.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
 							<div class="portfolio-description">
@@ -79,7 +79,7 @@
 			<!-- item -->
 			<div class="col-sm-4">
 				<div class="portfolio-item filter-item cat-business">
-					<a href="<?php echo base_url(); ?>assets/basri/img/portfolio/p4.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/basri/img/portfolio/p4.jpg');">
+					<a href="<?php echo base_url(); ?>assets/img/portfolio/p4.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p4.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
 							<div class="portfolio-description">
@@ -98,7 +98,7 @@
 			<!-- item -->
 			<div class="col-sm-4">
 				<div class="portfolio-item filter-item cat-business">
-					<a href="<?php echo base_url(); ?>assets/basri/img/portfolio/p5.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/basri/img/portfolio/p5.jpg');">
+					<a href="<?php echo base_url(); ?>assets/img/portfolio/p5.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p5.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
 							<div class="portfolio-description">
@@ -117,7 +117,7 @@
 			<!-- item -->
 			<div class="col-sm-4">
 				<div class="portfolio-item filter-item cat-cultural cat-featured">
-					<a href="<?php echo base_url(); ?>assets/basri/img/portfolio/p6.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/basri/img/portfolio/p6.jpg');">
+					<a href="<?php echo base_url(); ?>assets/img/portfolio/p6.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p6.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
 							<div class="portfolio-description">
@@ -136,7 +136,7 @@
 			<!-- item -->
 			<div class="col-sm-4">
 				<div class="portfolio-item filter-item cat-cultural">
-					<a href="<?php echo base_url(); ?>assets/basri/img/portfolio/p7.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/basri/img/portfolio/p7.jpg');">
+					<a href="<?php echo base_url(); ?>assets/img/portfolio/p7.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p7.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
 							<div class="portfolio-description">
@@ -155,7 +155,7 @@
 			<!-- item -->
 			<div class="col-sm-4">
 				<div class="portfolio-item filter-item cat-business">
-					<a href="<?php echo base_url(); ?>assets/basri/img/portfolio/p8.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/basri/img/portfolio/p8.jpg');">
+					<a href="<?php echo base_url(); ?>assets/img/portfolio/p8.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p8.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
 							<div class="portfolio-description">
@@ -174,7 +174,7 @@
 			<!-- item -->
 			<div class="col-sm-4">
 				<div class="portfolio-item filter-item cat-cultural cat-featured">
-					<a href="<?php echo base_url(); ?>assets/basri/img/portfolio/p9.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/basri/img/portfolio/p9.jpg');">
+					<a href="<?php echo base_url(); ?>assets/img/portfolio/p9.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p9.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
 							<div class="portfolio-description">

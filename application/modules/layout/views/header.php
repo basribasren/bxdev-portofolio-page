@@ -19,7 +19,7 @@
                 <!-- /Collapse Button -->
                 <!-- logo -->
                 <a class="navbar-brand" href="#hero1">
-                   <img src="img/logo.png" alt="">
+                   <img src="<?php echo base_url(); ?>assets/img/logo.png" alt="">
                 </a>
                 <!-- /logo -->
             </div>
