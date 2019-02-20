@@ -8,12 +8,6 @@
 			<!-- item -->
 			<div class="col-sm-4">
 				<!-- box -->
-				<div class="resume-box">
-					<p class="resume-item-ico"><i class="fa fa-bank"></i></p>
-					<h2 class="title2 resume-item-title1">Graphic Design</h2>
-					<h3 class="title3 resume-item-title2">St. Patrick University (4 Years Course)</h3>
-					<p>This is a education field. Fill it with your training and your academic experiences.</p>
-				</div>
 				<!-- box -->
 			</div>
 			<!-- /item -->
@@ -22,9 +16,9 @@
 				<!-- box -->
 				<div class="resume-box">
 					<p class="resume-item-ico"><i class="fa fa-bank"></i></p>
-					<h2 class="title2 resume-item-title1">Master of Web Design</h2>
-					<h3 class="title3 resume-item-title2">St. Patrick University (2 Years Course)</h3>
-					<p>This is a education field. Fill it with your training and your academic experiences.</p>
+					<h2 class="title2 resume-item-title1">Informatics Engineering</h2>
+					<h3 class="title3 resume-item-title2">University of Muhammadiyah Malang</h3>
+					<p>Title of skripsi is "Perancangan Sistem Repositori Skripsi Berbasis PWA (Progressive Web App) (Studi Kasus: Ruang Baca Fakultas Teknik)" with IPK 3.71</p>
 				</div>
 				<!-- box -->
 			</div>
@@ -32,12 +26,6 @@
 			<!-- item -->
 			<div class="col-sm-4">
 				<!-- box -->
-				<div class="resume-box">
-					<p class="resume-item-ico"><i class="fa fa-bank"></i></p>
-					<h2 class="title2 resume-item-title1">User Interaction</h2>
-					<h3 class="title3 resume-item-title2">St. Patrick University (2 Years Course)</h3>
-					<p>This is a education field. Fill it with your training and your academic experiences.</p>
-				</div>
 				<!-- box -->
 			</div>
 			<!-- /item -->

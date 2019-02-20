@@ -9,9 +9,9 @@
 			<div class="" id="filter-header">
 				<span class="portfolio-filter-title">Filter: </span>
 				<a href="#" class="category-item category-item-active" data-filter="filter-item">All</a>
-				<a href="#" class="category-item" data-filter="cat-featured">Featured</a>
-				<a href="#" class="category-item" data-filter="cat-cultural">Cultural</a>
-				<a href="#" class="category-item" data-filter="cat-business">Business</a>
+				<a href="#" class="category-item" data-filter="cat-nodejs">NodeJS</a>
+				<a href="#" class="category-item" data-filter="cat-php">PHP</a>
+				<a href="#" class="category-item" data-filter="cat-phyton">Phyton</a>
 			</div>
 		</div>
 		<!-- Categories -->
@@ -21,15 +21,15 @@
 
 			<!-- item -->
 			<div class="col-sm-4">
-				<div class="portfolio-item filter-item cat-cultural cat-featured">
-					<a href="<?php echo base_url(); ?>assets/img/portfolio/p1.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p1.jpg');">
+				<div class="portfolio-item filter-item cat-cultural cat-nodejs">
+					<a href="<?php echo base_url(); ?>assets/img/portfolio/siresi-front-end.png" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/siresi-front-end.png');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
 							<div class="portfolio-description">
 								<!-- portfolio name -->
-								<h2 class="portfolio-title">Project Title</h2>
+								<h2 class="portfolio-title">Siresi FT UMM</h2>
 								<!-- /portfolio name -->
-								<span class="see-more">Cultural, Featured</span>
+								<span class="see-more">Sistem repositori skripsi berbasis PWA (Progressive Web App) yang dibangun menggunakan library React.js dan Redux.js</span>
 							</div>
 						</div>
 						<!-- /portfolio-description -->
@@ -40,15 +40,15 @@
 
 			<!-- item -->
 			<div class="col-sm-4">
-				<div class="portfolio-item filter-item cat-business cat-featured">
-					<a href="<?php echo base_url(); ?>assets/img/portfolio/p2.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p2.jpg');">
+				<div class="portfolio-item filter-item cat-business cat-nodejs">
+					<a href="<?php echo base_url(); ?>assets/img/portfolio/siresi-back-end.png" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/siresi-back-end.png');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
 							<div class="portfolio-description">
 								<!-- portfolio name -->
-								<h2 class="portfolio-title">Project Title</h2>
+								<h2 class="portfolio-title">Rest API for Siresi FT UMM</h2>
 								<!-- /portfolio name -->
-								<span class="see-more">Cultural, Featured</span>
+								<span class="see-more">Rest API yang dibangun menggunakan framework Loopback</span>
 							</div>
 						</div>
 						<!-- /portfolio-description -->
@@ -59,7 +59,7 @@
 
 			<!-- item -->
 			<div class="col-sm-4">
-				<div class="portfolio-item filter-item cat-cultural cat-featured">
+				<div class="portfolio-item filter-item cat-cultural cat-php">
 					<a href="<?php echo base_url(); ?>assets/img/portfolio/p3.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p3.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
@@ -78,7 +78,7 @@
 
 			<!-- item -->
 			<div class="col-sm-4">
-				<div class="portfolio-item filter-item cat-business">
+				<div class="portfolio-item filter-item cat-php">
 					<a href="<?php echo base_url(); ?>assets/img/portfolio/p4.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p4.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
@@ -97,7 +97,7 @@
 
 			<!-- item -->
 			<div class="col-sm-4">
-				<div class="portfolio-item filter-item cat-business">
+				<div class="portfolio-item filter-item cat-php">
 					<a href="<?php echo base_url(); ?>assets/img/portfolio/p5.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p5.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
@@ -116,7 +116,7 @@
 
 			<!-- item -->
 			<div class="col-sm-4">
-				<div class="portfolio-item filter-item cat-cultural cat-featured">
+				<div class="portfolio-item filter-item cat-cultural cat-phyton">
 					<a href="<?php echo base_url(); ?>assets/img/portfolio/p6.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p6.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
@@ -135,7 +135,7 @@
 
 			<!-- item -->
 			<div class="col-sm-4">
-				<div class="portfolio-item filter-item cat-cultural">
+				<div class="portfolio-item filter-item cat-phyton">
 					<a href="<?php echo base_url(); ?>assets/img/portfolio/p7.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p7.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
@@ -154,7 +154,7 @@
 
 			<!-- item -->
 			<div class="col-sm-4">
-				<div class="portfolio-item filter-item cat-business">
+				<div class="portfolio-item filter-item cat-phyton">
 					<a href="<?php echo base_url(); ?>assets/img/portfolio/p8.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p8.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">
@@ -173,7 +173,7 @@
 
 			<!-- item -->
 			<div class="col-sm-4">
-				<div class="portfolio-item filter-item cat-cultural cat-featured">
+				<div class="portfolio-item filter-item cat-cultural cat-phyton">
 					<a href="<?php echo base_url(); ?>assets/img/portfolio/p9.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/p9.jpg');">
 						<!-- portfolio-description -->
 						<div class="portfolio-description-wrapper">

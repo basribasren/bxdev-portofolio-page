@@ -15,9 +15,9 @@
 	<!-- Section: About  -->
 	<?php 
 		$data = array(
-		    'aboutme' => 'Turpis, sit amet iaculis dui consectetur at. Cras sagittis molestie orci. Suspendisse ut laoreet mi. Phasellus eu tortor vehicula, blandit enim eu, auctor massa. Nulla ultricies tortor dolor, sit amet suscipit enim condimentum id. Etiam eget iaculis tellus. Varius sit amet.',
+		    'aboutme' => 'My name is Basri Basren and I am a web developer. I graduated from a Bachelor of Informatics Engineering, University of Muhammadiyah Malang (UMM) in February 2019. The skills I have in the field of web development include building a website using several NodeJS frameworks including, using framework express.js and loopback. In addition, I can also use the react.js library in building component-based websites. Besides using framework NodeJS, I can also use several PHP frameworks such as Codeigniter and Laravel in creating websites.',
 		    'address' => 'Jalan Raya Jetis No.53 Desa Mulyoagung Kecamatan DAU – Malang – Jawa Timur',
-		    'email' => 'basri.basreen',
+		    'email' => 'basri.basreen@gmail.com',
 		    'phone' => '+62 8233 5888 691',
 
 		    'instagram' => 'https://www.instagram.com/basribasreen/',
