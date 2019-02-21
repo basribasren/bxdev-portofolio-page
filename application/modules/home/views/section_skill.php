@@ -14,10 +14,10 @@
         <li>
           <div class="progress">
             <div class="progress-bar" role="progressbar" data-percent="70%" style="width: 70%;">
-                <span class="sr-only">70% Complete</span>
+                <span class="sr-only">% Complete</span>
             </div>
             <span class="progress-type">Comunication</span>
-            <span class="progress-completed">70%</span>
+            <span class="progress-completed"><span class="counter">70</span>%</span>
           </div>
         </li>
         <!-- /item list -->
@@ -25,10 +25,10 @@
         <li>
           <div class="progress">
             <div class="progress-bar progress-bar-2" role="progressbar" data-percent="85%" style="width: 85%;">
-                <span class="sr-only">85% Complete</span>
+                <span class="sr-only"><span class="counter">85</span>% Complete</span>
             </div>
             <span class="progress-type">Leadership</span>
-            <span class="progress-completed">85%</span>
+            <span class="progress-completed"><span class="counter">85</span>%</span>
           </div>
         </li>
         <!-- /item list -->
@@ -36,10 +36,10 @@
         <li>
           <div class="progress" title="Doing my best!">
             <div class="progress-bar progress-bar-3" role="progressbar" data-percent="85%" style="width: 85%;">
-                <span class="sr-only">85% Complete</span>
+                <span class="sr-only"><span class="counter">85</span>% Complete</span>
             </div>
             <span class="progress-type">Confidence</span>
-            <span class="progress-completed">85%</span>
+            <span class="progress-completed"><span class="counter">85</span>%</span>
           </div>
         </li>
         <!-- /item list -->
@@ -55,10 +55,10 @@
         <li>
           <div class="progress">
             <div class="progress-bar" role="progressbar" data-percent="85%" style="width: 85%;">
-                <span class="sr-only">85% Complete</span>
+                <span class="sr-only"><span class="counter">85</span>% Complete</span>
             </div>
             <span class="progress-type">CodeIgniter</span>
-            <span class="progress-completed">85%</span>
+            <span class="progress-completed"><span class="counter">85</span>%</span>
           </div>
         </li>
         <!-- /item list -->
@@ -66,10 +66,10 @@
         <li>
           <div class="progress">
             <div class="progress-bar progress-bar-2" role="progressbar" data-percent="40%" style="width: 40%;">
-                <span class="sr-only">40% Complete</span>
+                <span class="sr-only"><span class="counter">40</span>% Complete</span>
             </div>
             <span class="progress-type">Laravel</span>
-            <span class="progress-completed">40%</span>
+            <span class="progress-completed"><span class="counter">40</span>%</span>
           </div>
         </li>
         <!-- /item list -->
@@ -77,10 +77,10 @@
         <li>
           <div class="progress" title="Doing my best!">
             <div class="progress-bar progress-bar-3" role="progressbar" data-percent="75%" style="width: 75%;">
-                <span class="sr-only">75% Complete</span>
+                <span class="sr-only"><span class="counter">75</span>% Complete</span>
             </div>
             <span class="progress-type">Express.js</span>
-            <span class="progress-completed">75%</span>
+            <span class="progress-completed"><span class="counter">75</span>%</span>
           </div>
         </li>
         <!-- /item list -->
@@ -88,10 +88,10 @@
         <li>
           <div class="progress">
             <div class="progress-bar" role="progressbar" data-percent="80%" style="width: 80%;">
-                <span class="sr-only">80% Complete</span>
+                <span class="sr-only"><span class="counter">80</span>% Complete</span>
             </div>
             <span class="progress-type">Loopback</span>
-            <span class="progress-completed">80%</span>
+            <span class="progress-completed"><span class="counter">80</span>%</span>
           </div>
         </li>
         <!-- /item list -->
@@ -100,10 +100,10 @@
         <li>
           <div class="progress">
             <div class="progress-bar" role="progressbar" data-percent="85%" style="width: 85%;">
-                <span class="sr-only">85% Complete</span>
+                <span class="sr-only"><span class="counter">85</span>% Complete</span>
             </div>
             <span class="progress-type">React.js and Redux.js</span>
-            <span class="progress-completed">85%</span>
+            <span class="progress-completed"><span class="counter">85</span>%</span>
           </div>
         </li>
         <!-- /item list -->

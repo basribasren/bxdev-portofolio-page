@@ -88,7 +88,8 @@
 		<!-- Water-ripple -->
 	    <script src="<?php echo base_url(); ?>assets/vendor/ripples/jquery.ripples-min.js"></script>
 	    <script src="<?php echo base_url(); ?>assets/vendor/typedjs/typed.min.js"></script>
-	    <script src="<?php echo base_url(); ?>assets/vendor/jquery.nicescroll/jquery.nicescroll.min.js"></script>
+	    <script src="<?php echo base_url(); ?>assets/vendor/counterup/jquery.counterup.min.js"></script>
+	    <script src="<?php echo base_url(); ?>assets/vendor/nicescroll/jquery.nicescroll.min.js"></script>
 		<!-- Main Scripts -->
 		<script src="<?php echo base_url(); ?>assets/js/main.js"></script>
 

@@ -39,7 +39,7 @@ $(window).load(function(){
         cursorwidth:"16px",
         background:"rgba(20,20,20,0.3)"
     });
-    
+
 
     // :: 2.0 Testimonial - Owl Carousel
     $("#testimonial-carousel").owlCarousel({
@@ -112,7 +112,11 @@ $(window).load(function(){
 //Begin - Document Ready
 $(document).ready(function(){
 
-
+    $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    
     // :: 5.0 Portofolio - Fancy Box
     $(".fancybox").fancybox({
 
