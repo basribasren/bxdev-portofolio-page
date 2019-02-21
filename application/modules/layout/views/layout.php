@@ -90,8 +90,13 @@
 	    <script src="<?php echo base_url(); ?>assets/vendor/typedjs/typed.min.js"></script>
 		<!-- Main Scripts -->
 		<script src="<?php echo base_url(); ?>assets/js/main.js"></script>
-		<!-- <script src="<?php echo base_url(); ?>assets/js/index.js"></script> -->
 
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="<?php echo base_url(); ?>assets/vendor/html5shiv.js"></script>
+		  <script src="<?php echo base_url(); ?>assets/vendor/respond.min.js"></script>
+		<![endif]-->
 	</body>
 </html>
 
