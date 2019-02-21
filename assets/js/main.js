@@ -34,6 +34,12 @@ $(window).load(function(){
         loop: true,
         contentType: 'html', // or text
     });
+    $("body").niceScroll({ 
+        cursorcolor: "#09afad", 
+        cursorwidth:"16px",
+        background:"rgba(20,20,20,0.3)"
+    });
+    
 
     // :: 2.0 Testimonial - Owl Carousel
     $("#testimonial-carousel").owlCarousel({

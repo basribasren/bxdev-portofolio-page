@@ -4,7 +4,6 @@
  * Copyright (c) Mark Goodyear — @markgdyr — http://markgoodyear.com
  * License: MIT
  */
-
 (function ($, window, document) {
     'use strict';
 
