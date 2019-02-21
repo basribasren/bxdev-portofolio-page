@@ -51,7 +51,7 @@
 		                    <div class="social-icons">
 		                        <a href="<?php echo $instagram ?>" target=_blank ><i class="fa fa-instagram"></i></a>
 		                        <a href="<?php echo $facebook ?>" target=_blank ><i class="fa fa-facebook"></i></a>
-		                        <a href="<?php echo $twitter ?>" target=_blank ><i class="fa fa-twitter"></i></a>
+		                        <a href="<?php echo $twitch ?>" target=_blank ><i class="fa fa-twitch"></i></a>
 		                        <a href="<?php echo $linkedin ?>" target=_blank ><i class="fa fa-linkedin"></i></a>
 		                        <a href="<?php echo $github ?>" target=_blank ><i class="fa fa-github"></i></a>
 		                    </div>

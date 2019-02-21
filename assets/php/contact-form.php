@@ -1,77 +1,60 @@
 <?php
-session_cache_limiter('nocache');
-header('Expires: ' . gmdate('r', 0));
-
-header('Content-type: application/json');
 
 require 'php-mailer/class.phpmailer.php';
 
-// Your email address
-$to = 'diego@momm.com.br';
+if (isset($_POST["submit"])) {
 
-$subject = $_POST['assunto'];
+	session_cache_limiter('nocache');
+	header('Expires: ' . gmdate('r', 0));
 
-if($to) {
-
-	$name = $_POST['nome'];
-	$email = $_POST['email'];
-	
-	$fields = array(
-		0 => array(
-			'text' => 'Nome',
-			'val' => $_POST['nome']
-		),
-		1 => array(
-			'text' => 'Email',
-			'val' => $_POST['email']
-		),
-		2 => array(
-			'text' => 'Mensagem',
-			'val' => $_POST['mensagem']
-		)
-	);
-	
-	$message = "";
-	
-	foreach($fields as $field) {
-		$message .= $field['text'].": " . htmlspecialchars($field['val'], ENT_QUOTES) . "<br>\n";
-	}
-	
+	header('Content-type: application /json');
 	$mail = new PHPMailer;
+    $emailFrom = $_POST['email'];
+	$nameFrom = $_POST['name'];
+	$subject = $_POST['subject'];
+	$message = $_POST['message'];
 
-	$mail->IsSMTP();                                      // Set mailer to use SMTP
-	
-	// Optional Settings
-	$mail->Host = 'smtp.vosz.com.br';				  // Specify main and backup server
-	$mail->SMTPAuth = true;                             // Enable SMTP authentication
-	$mail->Username = 'vosz@vosz.com.br';             		  // SMTP username
-	$mail->Password = 'momomm123';                         // SMTP password
-	//$mail->SMTPSecure = 'tls';                          // Enable encryption, 'ssl' also accepted
+	try {
+	    //Server settings
+	    $mail->SMTPDebug = 2;                                 // Enable verbose debug output
+	    $mail->isSMTP();                                      // Set mailer to use SMTP
+	    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+	    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+	    $mail->Username = 'aroonzfi@gmail.com';                 // SMTP username
+	    $mail->Password = 'basriilma';                           // SMTP password
+	    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+	    $mail->Port = 587;                                    // TCP port to connect to
 
-	$mail->From = $email;
-	$mail->FromName = $_POST['name'];
-	$mail->AddAddress($to);								  // Add a recipient
-	$mail->AddReplyTo($email, $name);
+	    //Recipients
+	    $mail->setFrom($emailFrom, $nameFrom);
+	    $mail->addAddress('basri.basreen@gmail.com', 'Basri Basren');     // Add a recipient
+	    // $mail->addAddress('aroonzfi@gmail.com');               // Name is optional
+	    $mail->addReplyTo('basri.official.acc@gmail.com', 'Mailer');
+	    // $mail->addCC('cc@example.com');
+	    // $mail->addBCC('bcc@example.com');
 
-	$mail->IsHTML(true);                                  // Set email format to HTML
-	
-	$mail->CharSet = 'UTF-8';
+	    //Attachments
+	    // $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+	    // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 
-	$mail->Subject = $subject;
-	$mail->Body    = $message;
+	    //Content
+	    $mail->isHTML(true);                                  // Set email format to HTML
+	    $mail->CharSet = 'UTF-8';
+	    $mail->Subject = $subject;
+	    $mail->Body    = $message;
+	    // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
-	if(!$mail->Send()) {
-	   $arrResult = array ('response'=>'error');
-	}
+	    if(!$mail->Send()) {
+		   $arrResult = array ('response'=>'error');
+		}
 
-	$arrResult = array ('response'=>'success');
+		$arrResult = array ('response'=>'success');
 
-	echo json_encode($arrResult);
-	
-} else {
+		return json_encode($arrResult);
 
-	$arrResult = array ('response'=>'error');
-	echo json_encode($arrResult);
+	} catch (Exception $e) {
+	    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+	}  
+}                           
 
-}
 ?>

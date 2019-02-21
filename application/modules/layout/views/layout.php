@@ -69,22 +69,28 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="<?php echo base_url(); ?>assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 		<script src="<?php echo base_url(); ?>assets/vendor/validate.js"></script>
-		<!-- Owl Caroulsel -->
-		<script src="<?php echo base_url(); ?>assets/vendor/owl.carousel/owl-carousel/owl.carousel.js"></script>
 		<!-- Waypoints -->
 		<script src="<?php echo base_url(); ?>assets/vendor/waypoints.min.js"></script>
 		<!-- Fancybox -->
 		<script src="<?php echo base_url(); ?>assets/vendor/fancybox/jquery.fancybox.js"></script>
 		<!-- Owl Caroulsel -->
 		<script src="<?php echo base_url(); ?>assets/vendor/owl.carousel/owl-carousel/owl.carousel.js"></script>
+		<!-- Sweet-alert -->
+		<script src="<?php echo base_url(); ?>assets/vendor/sweetalert/sweetalert2.all.min.js"></script>
 		<!-- Images Loaded-->
 		<script src="<?php echo base_url(); ?>assets/vendor/imagesloaded.pkgd.min.js"></script>
 		<!-- Double Tap to Go -->
 		<script src="<?php echo base_url(); ?>assets/vendor/doubletaptogo.min.js"></script>
 		<!-- Cross-browser -->
 		<script src="<?php echo base_url(); ?>assets/vendor/cross-browser.js"></script>
+		<!-- Footer-reveal -->
+		<script src="<?php echo base_url(); ?>assets/vendor/jquery.footer-reveal.js"></script>
+		<!-- Water-ripple -->
+	    <script src="<?php echo base_url(); ?>assets/vendor/ripples/jquery.ripples-min.js"></script>
+	    <script src="<?php echo base_url(); ?>assets/vendor/typedjs/typed.min.js"></script>
 		<!-- Main Scripts -->
 		<script src="<?php echo base_url(); ?>assets/js/main.js"></script>
+		<!-- <script src="<?php echo base_url(); ?>assets/js/index.js"></script> -->
 
 	</body>
 </html>
