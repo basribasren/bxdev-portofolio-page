@@ -113,9 +113,9 @@ $(window).load(function(){
 $(document).ready(function(){
 
     $('.counter').counterUp({
-            delay: 10,
-            time: 1000
-        });
+        delay: 10,
+        time: 1000
+    });
     
     // :: 5.0 Portofolio - Fancy Box
     $(".fancybox").fancybox({
