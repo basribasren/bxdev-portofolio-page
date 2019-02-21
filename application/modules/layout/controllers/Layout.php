@@ -26,6 +26,6 @@ class Layout extends MY_Controller {
 	public function index()
 	{
 		$this->load->view('layout/layout');
-		$this->output->cache($n);
+		// $this->output->cache($n);
 	}
 }
