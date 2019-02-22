@@ -18,7 +18,7 @@
 		<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-
+		<!-- Bootstrap -->
 		<link href="<?php echo base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<!-- Font Awesome -->
 		<link href="<?php echo base_url(); ?>assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -87,8 +87,11 @@
 		<script src="<?php echo base_url(); ?>assets/vendor/jquery.footer-reveal.js"></script>
 		<!-- Water-ripple -->
 	    <script src="<?php echo base_url(); ?>assets/vendor/ripples/jquery.ripples-min.js"></script>
+		<!-- Typedjs -->
 	    <script src="<?php echo base_url(); ?>assets/vendor/typedjs/typed.min.js"></script>
+		<!-- Couter-Up -->
 	    <script src="<?php echo base_url(); ?>assets/vendor/counterup/jquery.counterup.min.js"></script>
+		<!-- Nice-Scroll -->
 	    <script src="<?php echo base_url(); ?>assets/vendor/nicescroll/jquery.nicescroll.min.js"></script>
 		<!-- Main Scripts -->
 		<script src="<?php echo base_url(); ?>assets/js/main.js"></script>
