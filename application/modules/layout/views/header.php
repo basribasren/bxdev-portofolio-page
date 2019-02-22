@@ -1,11 +1,3 @@
-<?php 
-/**
- * @param class header_area This is the custom style.
- * @param class animated This is the custom style.
- * @param class menu_area This is the custom style.
- * @param class sing-up-button This is the custom style.
- */
-?>
 <header id="header">
 	<nav class="navbar">
         <div class="container">

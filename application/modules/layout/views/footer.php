@@ -18,14 +18,9 @@
                 <!-- /col -->
                 <!-- col -->
                 <div class="col-sm-6 text-right">
-                   <div class="social-icons">
-                        <a href="https://www.instagram.com/basribasreen/" target=_blank ><i class="fa fa-instagram"></i></a>
-                        <a href="https://web.facebook.com/basri.basreen" target=_blank ><i class="fa fa-facebook"></i></a>
-                        <a href="https://www.twitch.tv/onestep13"><i class="fa fa-twitch"></i></a>
-                        <a href="https://www.linkedin.com/in/basrioffi/" target=_blank ><i class="fa fa-linkedin"></i></a>
-                        <a href="https://github.com/basribasren" target=_blank ><i class="fa fa-github"></i></a>
-                        | &copy; Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
-                    </div>
+                    <!-- Social Icons -->
+                    | &copy; Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+                    <!-- /Social Icons -->
                 </div>
                 <!-- /col -->
             </div>

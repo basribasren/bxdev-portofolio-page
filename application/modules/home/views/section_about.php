@@ -21,43 +21,27 @@
 					<p><?php echo $aboutme ?></p>		
 					<!-- row -->
 					<div class="row">
-						<!-- col -->
 						<div class="col-sm-6">
 							<h3 class="title3">Address</h3>
 							<p><?php echo $address ?></p>
 						</div>
-						<!-- /col -->
-						<!-- col -->
 						<div class="col-sm-6">
 							<h3 class="title3">Email</h3>
 							<p><?php echo $email ?></p>
 						</div>
-						<!-- /col -->
 					</div>	
 					<!-- /row -->
 
 					<!-- row -->
 					<div class="row">
-						<!-- col -->
 						<div class="col-sm-6">
 							<h3 class="title3">Phone</h3>
 							<p><?php echo $phone ?></p>
 						</div>
-						<!-- /col -->
-						<!-- col -->
 						<div class="col-sm-6">
 							<h3 class="title3">Find me On</h3>
-							<!-- Social Icons -->
-		                    <div class="social-icons">
-		                        <a href="<?php echo $instagram ?>" target=_blank ><i class="fa fa-instagram"></i></a>
-		                        <a href="<?php echo $facebook ?>" target=_blank ><i class="fa fa-facebook"></i></a>
-		                        <a href="<?php echo $twitch ?>" target=_blank ><i class="fa fa-twitch"></i></a>
-		                        <a href="<?php echo $linkedin ?>" target=_blank ><i class="fa fa-linkedin"></i></a>
-		                        <a href="<?php echo $github ?>" target=_blank ><i class="fa fa-github"></i></a>
-		                    </div>
-		                    <!-- /Social Icons -->
+		                    <?php $this->load->view('home/section_social') ?>
 						</div>
-						<!-- /col -->						
 					</div>	
 					<!-- /row -->					
 				</div>

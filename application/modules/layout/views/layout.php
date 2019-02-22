@@ -19,17 +19,20 @@
 		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 		<!-- Bootstrap -->
-		<link href="<?php echo base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<!-- Font Awesome -->
-		<link href="<?php echo base_url(); ?>assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/brands.css" integrity="sha384-BKw0P+CQz9xmby+uplDwp82Py8x1xtYPK3ORn/ZSoe6Dk3ETP59WCDnX+fI1XCKK" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous">
 		<!-- animate.css -->
-		<link href="<?php echo base_url(); ?>assets/vendor/animate.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 		<!-- fancybox.css -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
-		<!-- <link href="<?php echo base_url(); ?>assets/vendor/fancybox/jquery.fancybox.css" rel="stylesheet"> -->
 		<!-- owl carousel -->
-		<link href="<?php echo base_url(); ?>assets/vendor/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
-		<link href="<?php echo base_url(); ?>assets/vendor/owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/vendor/OwlCarousel2/dist/assets/owl.carousel.min.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>assets/vendor/OwlCarousel2/dist/assets/owl.theme.default.css" rel="stylesheet">
 		<!-- Main Styles -->
 		<link href="<?php echo base_url(); ?>assets/css/styles.css" rel="stylesheet">
 	</head>
@@ -66,33 +69,35 @@
 		<?php $this->load->view('layout/footer') ?>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="<?php echo base_url(); ?>assets/vendor/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="<?php echo base_url(); ?>assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-		<script src="<?php echo base_url(); ?>assets/vendor/validate.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+		<!-- Bootstrap and Pooper -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<!-- Validate -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
 		<!-- Waypoints -->
-		<script src="<?php echo base_url(); ?>assets/vendor/waypoints.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 		<!-- Fancybox -->
 		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
-		<!-- <script src="<?php echo base_url(); ?>assets/vendor/fancybox/jquery.fancybox.js"></script> -->
 		<!-- Owl Caroulsel -->
-		<script src="<?php echo base_url(); ?>assets/vendor/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
+		<script src="<?php echo base_url(); ?>assets/vendor/OwlCarousel2/dist/owl.carousel.min.js"></script>
 		<!-- Sweet-alert -->
-		<script src="<?php echo base_url(); ?>assets/vendor/sweetalert/sweetalert2.all.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 		<!-- Images Loaded-->
-		<script src="<?php echo base_url(); ?>assets/vendor/imagesloaded.pkgd.min.js"></script>
+		<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 		<!-- Double Tap to Go -->
 		<script src="<?php echo base_url(); ?>assets/vendor/doubletaptogo.min.js"></script>
 		<!-- Cross-browser -->
 		<script src="<?php echo base_url(); ?>assets/vendor/cross-browser.js"></script>
 		<!-- Footer-reveal -->
-		<script src="<?php echo base_url(); ?>assets/vendor/jquery.footer-reveal.js"></script>
+		<script src="<?php echo base_url(); ?>assets/vendor/footer-reveal/footer-reveal.min.js"></script>
 		<!-- Water-ripple -->
-	    <script src="<?php echo base_url(); ?>assets/vendor/ripples/jquery.ripples-min.js"></script>
+	    <script src="<?php echo base_url(); ?>assets/vendor/jquery-ripples/dist/jquery.ripples-min.js"></script>
 		<!-- Typedjs -->
-	    <script src="<?php echo base_url(); ?>assets/vendor/typedjs/typed.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 		<!-- Couter-Up -->
-	    <script src="<?php echo base_url(); ?>assets/vendor/counterup/jquery.counterup.min.js"></script>
+	    <script src="<?php echo base_url(); ?>assets/vendor/Counter-Up/jquery.counterup.min.js"></script>
 		<!-- Main Scripts -->
 		<script src="<?php echo base_url(); ?>assets/js/main.js"></script>
 

@@ -26,54 +26,44 @@ $(window).load(function(){
     $('#page-loader').delay(1000).fadeOut(10);
 
     // :: 2.0 Hero -Typed
-    Typed.new("#typed", {
-        stringsElement: document.getElementById('typed-strings'),
-        typeSpeed: 80,
-        startDelay: 1000,
-        backDelay: 1000,
-        loop: true,
-        contentType: 'html', // or text
+    var typed = new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        typeSpeed: 100,
+        loop:true
     });
-
-
-    // $("body").niceScroll({ 
-    //     cursorcolor: "#09afad", 
-    //     cursorwidth:"16px",
-    //     background:"rgba(20,20,20,0.3)"
-    // });
-
 
     // :: 3.0 Testimonial - Owl Carousel
     $("#testimonial-carousel").owlCarousel({
-        autoPlay : 3000,
-        stopOnHover : true,
-        navigation: false, // Show next and prev buttons
-        slideSpeed: 300,
-        paginationSpeed: 400,
-        responsiveRefreshRate: 200,
-        responsiveBaseWidth: window,
-        pagination: true,
-        singleItem: true,
+        items: 1,
+        loop:true,
+        center:true,
+        autoplay:true,
+        // autoplaySpeed : 3000,
+        // stopOnHover : true,
+        // navigation: false, // Show next and prev buttons
+        // slideSpeed: 300,
+        // paginationSpeed: 400,
+        // responsiveRefreshRate: 200,
+        // responsiveBaseWidth: window,
+        // pagination: true,
+        // singleItem: true,
         navigationText: ["<span class='fa fa-chevron-left'></span>", "<span class='fa fa-chevron-right'></span>"],
     });
 
     // :: 4.0 Clients - Owl Carousel
     $("#clients-carousel").owlCarousel({
-        autoPlay : 3000,
-        stopOnHover : true,
-        navigation: false, // Show next and prev buttons
-        slideSpeed: 300,
-        lazyLoad : true,
-        paginationSpeed: 400,
+        loop:true,
+        center:true,
+        autoplay:true,
         items: 5,
-        itemsCustom: false,
-        itemsDesktop: [1199, 4],
-        itemsDesktopSmall: [980, 3],
-        itemsTablet: [768, 2],
-        itemsMobile: [479, 1],
-        pagination: true,
-        responsiveRefreshRate: 200,
-        responsiveBaseWidth: window,
+        // itemsCustom: false,
+        // itemsDesktop: [1199, 4],
+        // itemsDesktopSmall: [980, 3],
+        // itemsTablet: [768, 2],
+        // itemsMobile: [479, 1],
+        // pagination: true,
+        // responsiveRefreshRate: 200,
+        // responsiveBaseWidth: window,
         navigationText: ["<span class='fa fa-chevron-left'></span>","<span class='fa fa-chevron-right'></span>"],     
     });
 
@@ -113,12 +103,19 @@ $(window).load(function(){
 
 //Begin - Document Ready
 $(document).ready(function(){
+    // :: 12.0 Hero - Ripple
+    $('#hero1').ripples({
+        resolution: 712,
+        dropRadius: 20,
+        perturbance: 0.04,
+    });
 
     // :: 7.0 Skill - Counter Up
     $('.counter').counterUp({
         delay: 10,
         time: 1000
     });
+
     
     // :: 8.0 Portofolio - Fancy Box
     $(".fancybox").fancybox({
@@ -140,6 +137,13 @@ $(document).ready(function(){
         return false;
     });
 
+    // :: 13.0 Footer - Footer Reveal
+    $('footer').footerReveal({
+        shadow: true,
+        shadowOpacity: 0.3,
+        zIndex: -101
+    });
+
     // :: 11.0 Scroll - Anchor Smooth Scroll
     $('a[href*=#]:not([href=#])').on('click', function () {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -154,19 +158,7 @@ $(document).ready(function(){
         }
     });
 
-    // :: 12.0 Hero - Ripple
-    $('#hero1').ripples({
-        resolution: 712,
-        dropRadius: 20,
-        perturbance: 0.04,
-    });
-
-    // :: 13.0 Footer - Footer Reveal
-    $('footer').footerReveal({
-        shadow: true,
-        shadowOpacity: 0.3,
-        zIndex: -101
-    });
+    
 
 //     // :: 7.0 COntact - Form Validation\
 //     $("#contactForm").validate({

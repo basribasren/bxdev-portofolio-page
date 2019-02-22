@@ -6,7 +6,7 @@
 			<div class="col-md-4">
 				<div class="feature-item">
 					<div class="feature-icon">
-						<i class="fa fa-photo"></i>
+						<span><i class="fas fa-globe"></i></span>
 					</div>
 					<h2 class="feature-title">Web Development</h2>
 					<div class="feature-description">
@@ -19,7 +19,7 @@
 			<div class="col-md-4">
 				<div class="feature-item">
 					<div class="feature-icon">
-						<i class="fa fa-laptop"></i>
+						<span><i class="fas fa-server"></i></span>
 					</div>
 					<h2 class="feature-title">Back-End Development</h2>
 					<div class="feature-description">
@@ -32,7 +32,7 @@
 			<div class="col-md-4">
 				<div class="feature-item">
 					<div class="feature-icon">
-						<i class="fa fa-globe"></i>
+						<span><i class="fas fa-code"></i></span>
 					</div>
 					<h2 class="feature-title">REST API Development</h2>
 					<div class="feature-description">
