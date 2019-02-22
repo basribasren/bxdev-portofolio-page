@@ -25,7 +25,8 @@
 		<!-- animate.css -->
 		<link href="<?php echo base_url(); ?>assets/vendor/animate.css" rel="stylesheet">
 		<!-- fancybox.css -->
-		<link href="<?php echo base_url(); ?>assets/vendor/fancybox/jquery.fancybox.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+		<!-- <link href="<?php echo base_url(); ?>assets/vendor/fancybox/jquery.fancybox.css" rel="stylesheet"> -->
 		<!-- owl carousel -->
 		<link href="<?php echo base_url(); ?>assets/vendor/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
 		<link href="<?php echo base_url(); ?>assets/vendor/owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet">
@@ -72,9 +73,10 @@
 		<!-- Waypoints -->
 		<script src="<?php echo base_url(); ?>assets/vendor/waypoints.min.js"></script>
 		<!-- Fancybox -->
-		<script src="<?php echo base_url(); ?>assets/vendor/fancybox/jquery.fancybox.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+		<!-- <script src="<?php echo base_url(); ?>assets/vendor/fancybox/jquery.fancybox.js"></script> -->
 		<!-- Owl Caroulsel -->
-		<script src="<?php echo base_url(); ?>assets/vendor/owl.carousel/owl-carousel/owl.carousel.js"></script>
+		<script src="<?php echo base_url(); ?>assets/vendor/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 		<!-- Sweet-alert -->
 		<script src="<?php echo base_url(); ?>assets/vendor/sweetalert/sweetalert2.all.min.js"></script>
 		<!-- Images Loaded-->
