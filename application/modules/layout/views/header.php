@@ -1,10 +1,10 @@
 <header id="header">
-	<nav class="navbar">
+    <nav class="navbar">
         <div class="container">
 
             <!-- Navbar Header -->
             <div class="navbar-header">
-            	<!-- Collapse Button -->
+                <!-- Collapse Button -->
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
