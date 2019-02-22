@@ -91,8 +91,6 @@
 	    <script src="<?php echo base_url(); ?>assets/vendor/typedjs/typed.min.js"></script>
 		<!-- Couter-Up -->
 	    <script src="<?php echo base_url(); ?>assets/vendor/counterup/jquery.counterup.min.js"></script>
-		<!-- Nice-Scroll -->
-	    <script src="<?php echo base_url(); ?>assets/vendor/nicescroll/jquery.nicescroll.min.js"></script>
 		<!-- Main Scripts -->
 		<script src="<?php echo base_url(); ?>assets/js/main.js"></script>
 

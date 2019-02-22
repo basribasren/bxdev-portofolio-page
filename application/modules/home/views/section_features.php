@@ -3,7 +3,7 @@
 		<!-- Features -->
 		<div class="row">				
 			<!-- item -->
-			<div class="col-xs-4">
+			<div class="col-md-4">
 				<div class="feature-item">
 					<div class="feature-icon">
 						<i class="fa fa-photo"></i>
@@ -16,7 +16,7 @@
 			</div>
 			<!-- /item -->
 			<!-- item -->
-			<div class="col-xs-4">
+			<div class="col-md-4">
 				<div class="feature-item">
 					<div class="feature-icon">
 						<i class="fa fa-laptop"></i>
@@ -29,7 +29,7 @@
 			</div>
 			<!-- /item -->
 			<!-- item -->
-			<div class="col-xs-4">
+			<div class="col-md-4">
 				<div class="feature-item">
 					<div class="feature-icon">
 						<i class="fa fa-globe"></i>

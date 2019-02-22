@@ -25,7 +25,7 @@ $(window).load(function(){
 
     $('#page-loader').delay(1000).fadeOut(10);
 
-    // :: 1.0 Hero -Typed
+    // :: 2.0 Hero -Typed
     Typed.new("#typed", {
         stringsElement: document.getElementById('typed-strings'),
         typeSpeed: 80,
@@ -34,14 +34,16 @@ $(window).load(function(){
         loop: true,
         contentType: 'html', // or text
     });
-    $("body").niceScroll({ 
-        cursorcolor: "#09afad", 
-        cursorwidth:"16px",
-        background:"rgba(20,20,20,0.3)"
-    });
 
 
-    // :: 2.0 Testimonial - Owl Carousel
+    // $("body").niceScroll({ 
+    //     cursorcolor: "#09afad", 
+    //     cursorwidth:"16px",
+    //     background:"rgba(20,20,20,0.3)"
+    // });
+
+
+    // :: 3.0 Testimonial - Owl Carousel
     $("#testimonial-carousel").owlCarousel({
         autoPlay : 3000,
         stopOnHover : true,
@@ -55,7 +57,7 @@ $(window).load(function(){
         navigationText: ["<span class='fa fa-chevron-left'></span>", "<span class='fa fa-chevron-right'></span>"],
     });
 
-    // :: 3.0 Clients - Owl Carousel
+    // :: 4.0 Clients - Owl Carousel
     $("#clients-carousel").owlCarousel({
         autoPlay : 3000,
         stopOnHover : true,
@@ -75,7 +77,7 @@ $(window).load(function(){
         navigationText: ["<span class='fa fa-chevron-left'></span>","<span class='fa fa-chevron-right'></span>"],     
     });
 
-    // :: 4.0 Portofolio - Filter
+    // :: 5.0 Portofolio - Filter
     var catActive = '';
 
     $('#filter-header .category-item').on('click', function(event) {
@@ -88,7 +90,7 @@ $(window).load(function(){
     });
 
   
-    // :: 5.0 Header - Fixed Menu
+    // :: 6.0 Header - Fixed Menu
     $('#hero1').waypoint(function(direction) {
         if (direction === 'down') {
             $('#header').addClass('header-stick');
@@ -112,20 +114,21 @@ $(window).load(function(){
 //Begin - Document Ready
 $(document).ready(function(){
 
+    // :: 7.0 Skill - Counter Up
     $('.counter').counterUp({
         delay: 10,
         time: 1000
     });
     
-    // :: 5.0 Portofolio - Fancy Box
+    // :: 8.0 Portofolio - Fancy Box
     $(".fancybox").fancybox({
 
     });
 
-    // :: 6.0 Header - Mobile Friendly SubMenus
+    // :: 9.0 Header - Mobile Friendly SubMenus
     $('.navbar-nav li:has(ul)').doubleTapToGo();
 
-    // :: 7.0 Map - Maps iframe Overlay
+    // :: 10.0 Map - Maps iframe Overlay
     var map = $('#map');
     map.on('click', function() {
         $('#map iframe').css("pointer-events", "auto");
@@ -137,7 +140,7 @@ $(document).ready(function(){
         return false;
     });
 
-    // :: 7.0 Scroll - Anchor Smooth Scroll
+    // :: 11.0 Scroll - Anchor Smooth Scroll
     $('a[href*=#]:not([href=#])').on('click', function () {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
@@ -151,14 +154,14 @@ $(document).ready(function(){
         }
     });
 
-    // :: 7.0 Hero - Ripples
+    // :: 12.0 Hero - Ripple
     $('#hero1').ripples({
         resolution: 712,
         dropRadius: 20,
         perturbance: 0.04,
     });
 
-    // :: 7.0 Footer - Footer Reveal
+    // :: 13.0 Footer - Footer Reveal
     $('footer').footerReveal({
         shadow: true,
         shadowOpacity: 0.3,
