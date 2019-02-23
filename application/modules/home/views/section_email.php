@@ -10,43 +10,51 @@
 	)">
 	<!-- item -->            
 	<div class="form-group">
+		Name: 
 		<input type="text" 
 			class="form-control required" 
 			id="name" 
 			name="name" 
 			placeholder="Name*" 
+			aria-label="Name"
 			required
 		>
 	</div>    
 	<!-- /item -->
 	<!-- item -->        
 	<div class="form-group">
+		Email: 
 		<input type="email" 
 			class="form-control required" 
 			id="email" 
 			name="email" 
 			placeholder="Email" 
+			aria-label="Email"
 			required
 		>
 	</div>    
 	<!-- /item --> 
 	<!-- item -->            
 	<div class="form-group">
+		Subject: 
 		<input type="text" 
 			class="form-control required" 
 			id="subject" 
 			name="subject" 
-			placeholder="Subject" 
+			placeholder="Subject"
+			aria-label="Subject" 
 			required
 		>
 	</div>    
 	<!-- /item -->
 	<!-- item -->            
 	<div class="form-group">
+		Message: 
 		<textarea class="form-control required"
 			name="message" 
 			id="message" 
-			placeholder="Message" 
+			placeholder="Message"
+			aria-label="Message" 
 			required
 		></textarea>
 	</div>    
@@ -56,6 +64,7 @@
 		<input type="submit" 
 			name="submit" 
 			value="Kirim" 
+			aria-label="Submit"
 			class="btn btn-default btn3" 
 		>
 	</div>    

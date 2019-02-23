@@ -8,14 +8,14 @@
 	<div class="container about-container">
 		<div class="row contrast">
 			<!-- Left Column -->
-			<div class="col-sm-6 col-no-padding">
+			<div class="col-md-6 col-no-padding">
 				<div class="about-picture" id="about-picture">
-					<img src="<?php echo base_url(); ?>assets/img/about-me.jpg" alt="" class="responsive-image">
+					<img src="<?php echo base_url(); ?>assets/img/about-me.jpg" alt="" class="img-fluid">
 				</div>
 			</div>			
 			<!-- /Left Column -->
 			<!-- Right Column -->
-			<div class="col-sm-6"> 
+			<div class="col-md-6"> 
 				<div class="padding-box">
 					<h1 class="title2">Who i am</h1>
 					<p><?php echo $aboutme ?></p>		

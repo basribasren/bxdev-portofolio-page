@@ -1,6 +1,4 @@
-//Use Strict Mode
-(function($) {
-  "use strict";
+$(function(){
 
 //Remove loading-wrapper class before window load
 setTimeout(function() {
@@ -8,10 +6,8 @@ setTimeout(function() {
     return false;
 }, 10);
 
-
-
 //Begin - Window Load
-$(window).load(function(){
+$(window).on('load', function(){
 
     // :: 1.0 Loader
     $('#loader-name').addClass('loader-up');
@@ -32,54 +28,6 @@ $(window).load(function(){
         loop:true
     });
 
-    // :: 3.0 Testimonial - Owl Carousel
-    $("#testimonial-carousel").owlCarousel({
-        items: 1,
-        loop:true,
-        center:true,
-        autoplay:true,
-        // autoplaySpeed : 3000,
-        // stopOnHover : true,
-        // navigation: false, // Show next and prev buttons
-        // slideSpeed: 300,
-        // paginationSpeed: 400,
-        // responsiveRefreshRate: 200,
-        // responsiveBaseWidth: window,
-        // pagination: true,
-        // singleItem: true,
-        navigationText: ["<span class='fa fa-chevron-left'></span>", "<span class='fa fa-chevron-right'></span>"],
-    });
-
-    // :: 4.0 Clients - Owl Carousel
-    $("#clients-carousel").owlCarousel({
-        loop:true,
-        center:true,
-        autoplay:true,
-        items: 5,
-        // itemsCustom: false,
-        // itemsDesktop: [1199, 4],
-        // itemsDesktopSmall: [980, 3],
-        // itemsTablet: [768, 2],
-        // itemsMobile: [479, 1],
-        // pagination: true,
-        // responsiveRefreshRate: 200,
-        // responsiveBaseWidth: window,
-        navigationText: ["<span class='fa fa-chevron-left'></span>","<span class='fa fa-chevron-right'></span>"],     
-    });
-
-    // :: 5.0 Portofolio - Filter
-    var catActive = '';
-
-    $('#filter-header .category-item').on('click', function(event) {
-        var catActive = $(this).attr('data-filter');
-        $('#filter-header .category-item').removeClass('category-item-active');
-        $(this).addClass('category-item-active');
-        $("#filter-container .filter-item").removeClass('project-item-disabled');
-        $("#filter-container .filter-item:not(." + catActive + ")").addClass('project-item-disabled');
-        event.preventDefault();
-    });
-
-  
     // :: 6.0 Header - Fixed Menu
     $('#hero1').waypoint(function(direction) {
         if (direction === 'down') {
@@ -103,19 +51,42 @@ $(window).load(function(){
 
 //Begin - Document Ready
 $(document).ready(function(){
-    // :: 12.0 Hero - Ripple
-    $('#hero1').ripples({
-        resolution: 712,
-        dropRadius: 20,
-        perturbance: 0.04,
+
+    // :: 3.0 Testimonial - Owl Carousel
+    $("#testimonial-carousel").owlCarousel({
+        items: 1,
+        loop:true,
+        center:true,
+        autoplay:true,
+        autoplayHoverPause : true,
+        responsiveRefreshRate: 200,
+        responsiveBaseWidth: window,
+        navigationText: ["<span class='fa fa-chevron-left'></span>", "<span class='fa fa-chevron-right'></span>"],
     });
 
-    // :: 7.0 Skill - Counter Up
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
+    // :: 4.0 Clients - Owl Carousel
+    $("#clients-carousel").owlCarousel({
+        loop:true,
+        center:true,
+        autoplay:true,
+        items: 5,
+        autoplayHoverPause : true,
+        responsiveRefreshRate: 200,
+        responsiveBaseWidth: window,
+        navigationText: ["<span class='fa fa-chevron-left'></span>","<span class='fa fa-chevron-right'></span>"],     
     });
 
+    // :: 5.0 Portofolio - Filter
+    var catActive = '';
+
+    $('#filter-header .category-item').on('click', function(event) {
+        var catActive = $(this).attr('data-filter');
+        $('#filter-header .category-item').removeClass('category-item-active');
+        $(this).addClass('category-item-active');
+        $("#filter-container .filter-item").removeClass('project-item-disabled');
+        $("#filter-container .filter-item:not(." + catActive + ")").addClass('project-item-disabled');
+        event.preventDefault();
+    });
     
     // :: 8.0 Portofolio - Fancy Box
     $(".fancybox").fancybox({
@@ -137,13 +108,6 @@ $(document).ready(function(){
         return false;
     });
 
-    // :: 13.0 Footer - Footer Reveal
-    $('footer').footerReveal({
-        shadow: true,
-        shadowOpacity: 0.3,
-        zIndex: -101
-    });
-
     // :: 11.0 Scroll - Anchor Smooth Scroll
     $('a[href*=\\#]:not([href=\\#])').on('click', function () {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -156,44 +120,7 @@ $(document).ready(function(){
                 return false;
             }
         }
-    });
-
-    
-
-//     // :: 7.0 COntact - Form Validation\
-//     $("#contactForm").validate({
-//         submitHandler: function(form) {
-//             $.ajax({
-//                 type: "POST",
-//                 url: "php/contact-form.php",
-//                 data: {
-//                     "name": $("#contactForm #name").val(),
-//                     "email": $("#contactForm #email").val(),
-//                     "subject": $("#contactForm #subject").val(),
-//                     "message": $("#contactForm #message").val()
-//                 },
-//                 dataType: "json",
-//                 success: function(data) {
-//                     if (data.response == "success") {
-//                         $("#contactSuccess").fadeIn(300);
-//                         $("#contactError").addClass("hidden");
-
-//                         $("#contactForm #name, #contactForm #email, #contactForm #subject, #contactForm #message")
-//                             .val("")
-//                             .blur()
-//                             .closest(".control-group")
-//                             .removeClass("success")
-//                             .removeClass("error");
-//                     } else {
-//                         $("#contactError").fadeIn(300);
-//                         $("#contactSuccess").addClass("hidden");
-//                     }
-//                 }
-//             });
-//         }
-//     });
-//     
-    
+    });    
 });
 
-})(jQuery);
+});

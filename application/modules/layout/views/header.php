@@ -1,53 +1,58 @@
 <header id="header">
-    <nav class="navbar">
-        <div class="container">
-
+    <div class="container">
+        <nav class="navbar navbar-expand-lg justify-content-between">
             <!-- Navbar Header -->
-            <div class="navbar-header">
-                <!-- Collapse Button -->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <!-- /Collapse Button -->
+            <!-- <div class="navbar-header"> -->
                 <!-- logo -->
                 <a class="navbar-brand" href="#hero1">
                    <img src="<?php echo base_url(); ?>assets/img/logo.png" alt="">
                 </a>
                 <!-- /logo -->
-            </div>
+                <!-- Collapse Button -->
+                <button class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbar-main-collapse" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
+                <!-- /Collapse Button -->
+            <!-- </div> -->
             <!-- / Navbar Header -->
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">                  
-                    <li>
-                        <a href="#about">About</a>
+            <div class="collapse navbar-collapse" id="navbar-main-collapse">
+                <ul class="navbar-nav mr-auto">                  
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
                     </li>   
-                    <li>
-                        <a href="#portfolio">Portfolio</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>   
-                    <li>
-                        <a href="#education">Education</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
                     </li>  
-                    <li>
-                        <a href="#experience">Experience</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
                     </li>  
-                    <li>
-                        <a href="#testimonials">Testimonials</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
                     </li>
-                    <li>
-                        <a href="#testimonials">Skills</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Skills</a>
                     </li>              
-                    <li>
-                        <a href="#clients">Clients</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clients">Clients</a>
                     </li> 
-                    <li>
-                        <a href="#contact">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li> 
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+        </nav>    
+    </div>
+    <!-- /.container -->
 </header>
