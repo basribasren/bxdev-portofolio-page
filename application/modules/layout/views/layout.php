@@ -35,6 +35,7 @@
 		<!-- owl carousel -->
 		<link href="<?php echo base_url(); ?>assets/vendor/OwlCarousel2/dist/assets/owl.carousel.min.css" rel="stylesheet">
 		<link href="<?php echo base_url(); ?>assets/vendor/OwlCarousel2/dist/assets/owl.theme.default.css" rel="stylesheet">
+		
 		<!-- Main Styles -->
 		<link href="<?php echo base_url(); ?>assets/css/styles.css" rel="stylesheet">
 	</head>
@@ -59,8 +60,6 @@
 
 		<!-- header -->
 		<?php $this->load->view('layout/header') ?>
-
-		<!-- sidebar -->
 
 		<!-- content -->
 		<?php $this->load->view('layout/content') ?>
@@ -92,6 +91,7 @@
 		<script src="<?php echo base_url(); ?>assets/vendor/cross-browser.js"></script>
 		<!-- Typedjs -->
 		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+	
 		<!-- Main Scripts -->
 		<script src="<?php echo base_url(); ?>assets/js/main.js"></script>
 

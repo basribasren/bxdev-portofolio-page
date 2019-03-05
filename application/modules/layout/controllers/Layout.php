@@ -22,10 +22,28 @@ class Layout extends MY_Controller {
 	{
 		parent::__construct();
 	}
+	function _remap($method, $args)
+    {
+ 
+       if (method_exists($this, $method))
+       {
+           $this->$method($args);
+       }
+       else
+       {
+            $this->index($method, $args);
+       }
+    }
 	
 	public function index()
 	{
 		$this->load->view('layout/layout');
-		// $this->output->cache($n);
+	}
+
+	public function pdf($args)
+	{
+		$data['file'] = 'assets/pdf/'.$args[0];
+		// echo 'ID of product is'. $args[0].'<br/>';
+		$this->load->view('layout/layoutPDF', $data);
 	}
 }

@@ -6,13 +6,13 @@
 		<!-- row -->
 		<div class="row">				
 			<!-- item -->
-			<div class="col-sm-4">
+			<div class="col-lg-4">
 				<!-- box -->
 				<!-- box -->
 			</div>
 			<!-- /item -->
 			<!-- item -->
-			<div class="col-sm-4">
+			<div class="col-lg-4">
 				<!-- box -->
 				<div class="resume-box">
 					<p class="resume-item-ico"><i class="fas fa-university"></i></p>
@@ -24,7 +24,7 @@
 			</div>
 			<!-- /item -->
 			<!-- item -->
-			<div class="col-sm-4">
+			<div class="col-lg-4">
 				<!-- box -->
 				<!-- box -->
 			</div>

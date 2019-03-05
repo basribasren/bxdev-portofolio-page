@@ -20,7 +20,7 @@
 		<div class="portfolio-list row" id="filter-container">
 
 			<!-- item -->
-			<div class="col-sm-4">
+			<div class="col-lg-4">
 				<div class="portfolio-item filter-item cat-cultural cat-nodejs">
 					<a href="<?php echo base_url(); ?>assets/img/portfolio/siresi-front-end.jpg" 
 						class="portfolio-thumbnail fancybox" 
@@ -44,7 +44,7 @@
 			<!-- /item -->
 
 			<!-- item -->
-			<div class="col-sm-4">
+			<div class="col-lg-4">
 				<div class="portfolio-item filter-item cat-business cat-nodejs">
 					<a href="<?php echo base_url(); ?>assets/img/portfolio/siresi-back-end.jpg" 
 						class="portfolio-thumbnail fancybox" 
@@ -68,7 +68,7 @@
 			<!-- /item -->
 
 			<!-- item -->
-			<div class="col-sm-4">
+			<div class="col-lg-4">
 				<div class="portfolio-item filter-item cat-cultural cat-php">
 					<a href="<?php echo base_url(); ?>assets/img/portfolio/basribasren-portfolio.jpg" 
 						class="portfolio-thumbnail fancybox" 

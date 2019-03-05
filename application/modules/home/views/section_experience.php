@@ -6,25 +6,29 @@
 		<!-- row -->
 		<div class="row">				
 			<!-- item -->
-			<div class="col-sm-4">
+			<div class="col-lg-4">
 				<!-- box -->
 				<!-- box -->
 			</div>
 			<!-- /item -->
 			<!-- item -->
-			<div class="col-sm-4">
+			<div class="col-lg-4">
 				<!-- box -->
 				<div class="resume-box">
 					<p class="resume-item-ico"><i class="fa fa-flag"></i></p>
 					<h2 class="title2 resume-item-title1">PT Raksasa Laju Lintang</h2>
 					<h3 class="title3 resume-item-title2">Jan 2017 – February 2017</h3>
 					<p>Praktek Kerja Lapangan (PKL) at ralali.com as web developer</p>
+					<hr>
+					<a href="<?php echo site_url('pdf/sertificatePKL.pdf');?>" class="btn btn-default">
+						Sertificate
+					</a> 
 				</div>
 				<!-- box -->
 			</div>
 			<!-- /item -->
 			<!-- item -->
-			<div class="col-sm-4">
+			<div class="col-lg-4">
 				<!-- box -->
 				<!-- box -->
 			</div>
