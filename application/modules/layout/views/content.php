@@ -46,6 +46,10 @@
 	<?php $this->load->view('home/section_experience') ?>
 	<!-- /Section: Resume Experience -->	
 
+	<!-- Section: Certificate -->
+	<?php $this->load->view('home/section_certificate') ?>
+	<!-- /Section: Certificate -->
+
 	<!-- Section: Image background-->
 	<?php $this->load->view('home/section_background') ?>
 	<!-- / Section: Image Background-->

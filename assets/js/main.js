@@ -77,6 +77,30 @@ $(document).ready(function(){
         navigationText: ["<span class='fa fa-chevron-left'></span>","<span class='fa fa-chevron-right'></span>"],     
     });
 
+    // :: 4.0 Certificate - Owl Carousel
+    $("#about-carousel").owlCarousel({
+        loop:true,
+        center:true,
+        autoplay:true,
+        items: 1,
+        autoplayHoverPause : true,
+        responsiveRefreshRate: 200,
+        responsiveBaseWidth: window,
+        navigationText: ["<span class='fa fa-chevron-left'></span>","<span class='fa fa-chevron-right'></span>"],     
+    });
+
+    // :: 4.0 Certificate - Owl Carousel
+    $("#certificate-carousel").owlCarousel({
+        loop:true,
+        center:true,
+        autoplay:true,
+        items: 3,
+        autoplayHoverPause : true,
+        responsiveRefreshRate: 200,
+        responsiveBaseWidth: window,
+        navigationText: ["<span class='fa fa-chevron-left'></span>","<span class='fa fa-chevron-right'></span>"],     
+    });
+
     // :: 5.0 Portofolio - Filter
     var catActive = '';
 

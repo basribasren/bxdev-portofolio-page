@@ -9,8 +9,29 @@
 		<div class="row contrast">
 			<!-- Left Column -->
 			<div class="col-md-6 col-no-padding">
-				<div class="about-picture" id="about-picture">
-					<img src="<?php echo base_url(); ?>assets/img/about-me.jpg" alt="" class="img-fluid">
+				<div class="about-carousel owl-carousel owl-theme owl-loaded" id="about-carousel">
+					<div class="owl-stage-outer">
+				        <div class="owl-stage">
+							<!-- item -->
+							<div class="about-item owl-item">
+								<img src="<?php echo base_url(); ?>assets/img/about-me-02.jpg" alt="">
+							</div>
+							<!-- <div class="about-picture" id="about-picture">
+								<img src="<?php echo base_url(); ?>assets/img/about-me.jpg" alt="" class="img-fluid">
+							</div> -->
+							<!-- /item -->
+							<!-- item -->
+							<div class="about-item owl-item">
+								<img src="<?php echo base_url(); ?>assets/img/about-me-03.jpg" alt="">
+							</div>
+							<!-- /item -->
+							<!-- item -->
+							<div class="about-item owl-item">
+								<img src="<?php echo base_url(); ?>assets/img/about-me-04.jpg" alt="">
+							</div>
+							<!-- /item -->
+						</div>
+					</div>
 				</div>
 			</div>			
 			<!-- /Left Column -->
