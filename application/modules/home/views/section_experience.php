@@ -1,10 +1,12 @@
+<style type="text/css" media="screen">
+</style>
 <div class="section contrast" id="experience">
 	<div class="container">
 		<!-- Section Title -->
 		<h2 class="title-of-section title-border">Experience</h2>
-		<!-- /Section Title -->	
+		<!-- /Section Title -->
 		<!-- row -->
-		<div class="row">				
+		<div class="row">
 			<!-- item -->
 			<div class="col-lg-4">
 				<!-- box -->
@@ -20,9 +22,9 @@
 					<h3 class="title3 resume-item-title2">Jan 2017 – February 2017</h3>
 					<p>Praktek Kerja Lapangan (PKL) at ralali.com as web developer</p>
 					<hr>
-					<a href="<?php echo site_url('pdf/sertificatePKL.pdf');?>" class="btn btn-default">
+					<button type="button" class="btn btn-default" data-toggle="modal" data-target="#pdfModal">
 						Sertificate
-					</a> 
+					</button>
 				</div>
 				<!-- box -->
 			</div>
@@ -35,5 +37,27 @@
 			<!-- /item -->
 		</div>
 		<!-- /row -->
+	</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="pdfModal" tabindex="-1" role="dialog" aria-labelledby="pdfModal" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="pdfModal">Modal title</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<?php 
+					$data['file'] = 'assets/pdf/sertificatePKL.pdf';
+					$this->load->view('home/section_pdf', $data);
+				?>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
 	</div>
 </div>

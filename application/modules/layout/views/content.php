@@ -83,4 +83,7 @@
 	<?php $this->load->view('home/section_contact', array_merge($contact, $social)) ?>
 	<!-- /Section: Contact -->	
 
+	<!-- Section: Map -->	
+	<?php $this->load->view('home/section_map') ?>
+	<!-- /Section: Map -->	
 </section>

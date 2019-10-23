@@ -1,9 +1,74 @@
+<style type="text/css" media="screen">
+    /* ==========================================================
+! Footer
+========================================================== */
+#footer {
+  color: #ffffff;
+  background: #1b1919;
+  padding-top: 0;
+}
+
+/*#footer .widget {
+  padding: 0;
+  background-color: transparent;
+}
+
+#footer .widget ul {
+  margin-top: 0;
+}
+
+#footer .widget_about p {
+  font-size: 12px;
+  line-height: 16px;
+}*/
+
+.secondary-footer {
+  background: #111;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/*
+.footer-logo {
+  opacity: 0.7;
+  max-width: 150px;
+}*/
+
+.footer-quote {
+  padding-top: 4px;
+  margin-bottom: 0;
+}
+
+/*.social-icons-footer {
+  font-size: 14px;
+  text-align: right;
+}*/
+
+/*@media (min-width: 768px) {
+  .social-icons-footer {
+    display: block;
+  }
+}
+
+.social-icons-footer a {
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+  background: #da222b;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.social-icons-footer a:hover {
+  opacity: 0.7;
+}*/
+
+</style>
 <footer id="footer">
-    <div class="section-map">
-        <div class="map" id="map">          
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.9428414896107!2d112.59048932916629!3d-7.918934371327266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78818be92da60b%3A0x511acbaac4f8a087!2sJl.+Raya+Jetis+No.57%2C+Jetis%2C+Mulyoagung%2C+Dau%2C+Malang%2C+Jawa+Timur+65151!5e0!3m2!1sen!2sid!4v1550683981909" title="myMap" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-    </div>
     <div class="secondary-footer">
         <div class="container">
             <!-- row -->

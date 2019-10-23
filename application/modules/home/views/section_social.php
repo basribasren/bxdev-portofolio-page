@@ -1,3 +1,6 @@
+<style type="text/css" media="screen">
+      
+</style>
 <div class="social-icons">
       <a href="<?php echo $instagram ?>" target=_blank rel="noopener">
       	<span><i class="fab fa-instagram"></i></span>

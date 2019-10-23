@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-// $config['base_url'] = 'http://localhost/onestep-ci-portofolio/';
-$config['base_url'] = 'https://basribasreen.herokuapp.com/';
+$config['base_url'] = 'http://localhost/bxdev-portfolio-page/';
+// $config['base_url'] = 'https://basribasreen.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------

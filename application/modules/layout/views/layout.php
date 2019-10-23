@@ -16,12 +16,12 @@
 		<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/favicon2.ico" type="image/x-icon">
 		<link rel="icon" href="<?php echo base_url(); ?>assets/favicon2.ico" type="image/x-icon">
 
-		<!-- Google Web Fonts -->
-		<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- Google Web Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+		<!-- <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet"> -->
+		<!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet"> -->
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
 
@@ -40,7 +40,7 @@
 		<link href="<?php echo base_url(); ?>assets/css/styles.css" rel="stylesheet">
 	</head>
 
-	<body>
+	<body class="">
 		<!-- Page Loader -->
 		<div class="loader-container" id="page-loader"> 
 		  <div class="loading-wrapper loading-wrapper-hide">

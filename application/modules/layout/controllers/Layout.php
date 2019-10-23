@@ -22,6 +22,7 @@ class Layout extends MY_Controller {
 	{
 		parent::__construct();
 	}
+	
 	function _remap($method, $args)
     {
  
@@ -40,10 +41,9 @@ class Layout extends MY_Controller {
 		$this->load->view('layout/layout');
 	}
 
-	public function pdf($args)
-	{
-		$data['file'] = 'assets/pdf/'.$args[0];
-		// echo 'ID of product is'. $args[0].'<br/>';
-		$this->load->view('layout/layoutPDF', $data);
-	}
+	// public function pdf($args)
+	// {
+	// 	$data['file'] = 'assets/pdf/'.$args[0];
+	// 	$this->load->view('home/section_pdf', $data);
+	// }
 }
