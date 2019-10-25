@@ -93,7 +93,7 @@
 }
 </style>
 <!-- Section: Testimonials -->
-<div class="section-testimonials">
+<div class="section-testimonials" id="testimonials">
 	<!-- Section Title -->
 	<h2 class="title-of-section">Feed Back</h2>
 	<!-- /Section Title -->

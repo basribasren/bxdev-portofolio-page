@@ -49,8 +49,59 @@
     background: #da222b;
 }
 </style>
+
+
+<?php 
+$soft_skill = array(
+    array(
+        'class' => '',
+        'complete' =>'70',
+        'type' => 'Communication'
+    ),
+    array(
+        'class' => 'progress-bar-2',
+        'complete' =>'85',
+        'type' => 'Leadership'
+    ),
+    array(
+        'class' => 'progress-bar-3',
+        'complete' =>'85',
+        'type' => 'Confidence'
+    ),
+);
+?>
+
+<?php 
+$app_skill = array(
+    array(
+        'class' => '',
+        'complete' =>'85',
+        'type' => 'Codeigniter'
+    ),
+    array(
+        'class' => 'progress-bar-2',
+        'complete' =>'40',
+        'type' => 'Laravel'
+    ),
+    array(
+        'class' => 'progress-bar-3',
+        'complete' =>'75',
+        'type' => 'Express.js'
+    ),
+    array(
+        'class' => 'progress-bar-2',
+        'complete' =>'80',
+        'type' => 'Loopback'
+    ),
+    array(
+        'class' => '',
+        'complete' =>'85',
+        'type' => 'React.js and Redux.js'
+    ),
+);
+?>
 <!-- Section: Skills -->
-<div class="section-skills">
+<div class="section-skills" id="skills">
     <!-- Section Title -->
     <h2 class="title-of-section text-right">Skills</h2>
     <!-- /Section Title -->
@@ -59,39 +110,22 @@
     <!-- /Item Title -->
     <!-- Skils List -->
     <ul class="skills-list">
+        <?php 
+            $arrlength = count($soft_skill);
+            for ($i = 0; $i < $arrlength; $i++){
+        ?>
         <!-- item-list -->
         <li>
             <div class="progress">
-                <div class="progress-bar" role="progressbar" data-percent="70%" style="width: 70%;">
+                <div class="progress-bar <?php echo $soft_skill[$i]['class'] ?>" role="progressbar" data-percent="<?php echo $soft_skill[$i]['complete'] ?>%" style="width: <?php echo $soft_skill[$i]['complete']; ?>%;">
                     <span class="sr-only">% Complete</span>
                 </div>
-                <span class="progress-type">Comunication</span>
-                <span class="progress-completed"><span class="counter">70</span>%</span>
+                <span class="progress-type"><?php echo $soft_skill[$i]['type']; ?></span>
+                <span class="progress-completed"><span class="counter"><?php echo $soft_skill[$i]['complete']; ?></span>%</span>
             </div>
         </li>
         <!-- /item list -->
-        <!-- item-list -->
-        <li>
-            <div class="progress">
-                <div class="progress-bar progress-bar-2" role="progressbar" data-percent="85%" style="width: 85%;">
-                    <span class="sr-only"><span class="counter">85</span>% Complete</span>
-                </div>
-                <span class="progress-type">Leadership</span>
-                <span class="progress-completed"><span class="counter">85</span>%</span>
-            </div>
-        </li>
-        <!-- /item list -->
-        <!-- item-list -->
-        <li>
-            <div class="progress" title="Doing my best!">
-                <div class="progress-bar progress-bar-3" role="progressbar" data-percent="85%" style="width: 85%;">
-                    <span class="sr-only"><span class="counter">85</span>% Complete</span>
-                </div>
-                <span class="progress-type">Confidence</span>
-                <span class="progress-completed"><span class="counter">85</span>%</span>
-            </div>
-        </li>
-        <!-- /item list -->
+        <?php } ?>
     </ul>
     <!-- /Skils List -->
     <!-- Item Title -->
@@ -100,59 +134,22 @@
     <!-- Skils List -->
     <ul class="skills-list">
         <!-- item-list -->
-        <li>
-            <div class="progress">
-                <div class="progress-bar" role="progressbar" data-percent="85%" style="width: 85%;">
-                    <span class="sr-only"><span class="counter">85</span>% Complete</span>
-                </div>
-                <span class="progress-type">CodeIgniter</span>
-                <span class="progress-completed"><span class="counter">85</span>%</span>
-            </div>
-        </li>
-        <!-- /item list -->
+        <?php 
+            $arrlength = count($app_skill);
+            for ($i = 0; $i < $arrlength; $i++){
+        ?>
         <!-- item-list -->
         <li>
             <div class="progress">
-                <div class="progress-bar progress-bar-2" role="progressbar" data-percent="40%" style="width: 40%;">
-                    <span class="sr-only"><span class="counter">40</span>% Complete</span>
+                <div class="progress-bar <?php echo $app_skill[$i]['class'] ?>" role="progressbar" data-percent="<?php echo $app_skill[$i]['complete'] ?>%" style="width: <?php echo $app_skill[$i]['complete']; ?>%;">
+                    <span class="sr-only">% Complete</span>
                 </div>
-                <span class="progress-type">Laravel</span>
-                <span class="progress-completed"><span class="counter">40</span>%</span>
+                <span class="progress-type"><?php echo $app_skill[$i]['type']; ?></span>
+                <span class="progress-completed"><span class="counter"><?php echo $app_skill[$i]['complete']; ?></span>%</span>
             </div>
         </li>
         <!-- /item list -->
-        <!-- item-list -->
-        <li>
-            <div class="progress" title="Doing my best!">
-                <div class="progress-bar progress-bar-3" role="progressbar" data-percent="75%" style="width: 75%;">
-                    <span class="sr-only"><span class="counter">75</span>% Complete</span>
-                </div>
-                <span class="progress-type">Express.js</span>
-                <span class="progress-completed"><span class="counter">75</span>%</span>
-            </div>
-        </li>
-        <!-- /item list -->
-        <!-- item-list -->
-        <li>
-            <div class="progress">
-                <div class="progress-bar" role="progressbar" data-percent="80%" style="width: 80%;">
-                    <span class="sr-only"><span class="counter">80</span>% Complete</span>
-                </div>
-                <span class="progress-type">Loopback</span>
-                <span class="progress-completed"><span class="counter">80</span>%</span>
-            </div>
-        </li>
-        <!-- /item list -->
-        <!-- item-list -->
-        <li>
-            <div class="progress">
-                <div class="progress-bar" role="progressbar" data-percent="85%" style="width: 85%;">
-                    <span class="sr-only"><span class="counter">85</span>% Complete</span>
-                </div>
-                <span class="progress-type">React.js and Redux.js</span>
-                <span class="progress-completed"><span class="counter">85</span>%</span>
-            </div>
-        </li>
+        <?php } ?>
         <!-- /item list -->
     </ul>
     <!-- /Skils List -->

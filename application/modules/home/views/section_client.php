@@ -45,6 +45,12 @@
 	}
 }
 </style>
+
+
+<?php 
+$clients = array('1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', '8.png');
+?>
+
 <div class="section contrast" id="clients">
 	<div class="container">
 		<!-- Section Title -->
@@ -55,44 +61,15 @@
 			<div class="owl-stage-outer">
 				<div class="owl-stage">
 					<!-- item -->
-					<div class="clients-carousel-item owl-item">
-						<img src="<?php echo base_url(); ?>assets/img/clients/1.png" alt="">
-					</div>
-					<!-- /item -->
-					<!-- item -->
-					<div class="clients-carousel-item owl-item">
-						<img src="<?php echo base_url(); ?>assets/img/clients/2.png" alt="">
-					</div>
-					<!-- /item -->
-					<!-- item -->
-					<div class="clients-carousel-item owl-item">
-						<img src="<?php echo base_url(); ?>assets/img/clients/3.png" alt="">
-					</div>
-					<!-- /item -->
-					<!-- item -->
-					<div class="clients-carousel-item owl-item">
-						<img src="<?php echo base_url(); ?>assets/img/clients/4.png" alt="">
-					</div>
-					<!-- /item -->
-					<!-- item -->
-					<div class="clients-carousel-item owl-item">
-						<img src="<?php echo base_url(); ?>assets/img/clients/5.png" alt="">
-					</div>
-					<!-- /item -->
-					<!-- item -->
-					<div class="clients-carousel-item owl-item">
-						<img src="<?php echo base_url(); ?>assets/img/clients/6.png" alt="">
-					</div>
-					<!-- /item -->
-					<!-- item -->
-					<div class="clients-carousel-item owl-item">
-						<img src="<?php echo base_url(); ?>assets/img/clients/7.png" alt="">
-					</div>
-					<!-- /item -->
-					<!-- item -->
-					<div class="clients-carousel-item owl-item">
-						<img src="<?php echo base_url(); ?>assets/img/clients/8.png" alt="">
-					</div>
+					<?php 
+						$arrlength = count($clients);
+						for ($i = 0; $i < $arrlength; $i++){
+							$image = 'assets/img/clients/'.$clients[$i];
+					?>
+						<div class="clients-carousel-item owl-item">
+							<img src="<?php echo base_url($image); ?>" alt="">
+						</div>
+					<?php } ?>
 					<!-- /item -->
 				</div>
 			</div>

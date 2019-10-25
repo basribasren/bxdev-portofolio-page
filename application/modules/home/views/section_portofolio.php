@@ -122,6 +122,30 @@
 	opacity: 0.3 !important;
 }
 </style>
+
+<?php 
+$portfolio = array(
+	array(
+		'image' => 'siresi-front-end.jpg',
+		'thumb' => 'siresi-front-end-thumb.jpg',
+		'title' =>'Siresi FT UMM',
+		'desc' => 'Sistem repositori skripsi berbasis PWA (<i>Progressive Web App</i>) yang dibangun menggunakan library React.js dan Redux.js'
+	),
+	array(
+		'image' => 'siresi-back-end.jpg',
+		'thumb' => 'siresi-back-end-thumb.jpg',
+		'title' =>'Rest API for Siresi FT UMM',
+		'desc' => 'Rest API yang dibangun menggunakan framework Loopback'
+	),
+	array(
+		'image' => 'basribasren-portfolio.jpg',
+		'thumb' => 'basribasren-portfolio-thumb.jpg',
+		'title' =>'My Portfolio Website',
+		'desc' => 'Website portofolio yang dibangun menggunakan framework Codeigniter dan kondep HMVC (<i>Hierarchical Model View Controller</i>)'
+	),
+);
+?>
+
 <div class="section section-portfolio contrast" id="portfolio">
 	<div class="container">
 		<!-- Section Title -->
@@ -141,60 +165,35 @@
 		<!-- portfolio list -->
 		<div class="portfolio-list row" id="filter-container">
 			<!-- item -->
-			<div class="col-lg-4">
-				<div class="portfolio-item filter-item cat-cultural cat-nodejs">
-					<a href="<?php echo base_url(); ?>assets/img/portfolio/siresi-front-end.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" data-caption="Sistem repositori skripsi berbasis PWA (Progressive Web App) yang dibangun menggunakan library React.js dan Redux.js" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/siresi-front-end-thumb.jpg');">
-						<!-- portfolio-description -->
-						<div class="portfolio-description-wrapper">
-							<div class="portfolio-description">
-								<!-- portfolio name -->
-								<h2 class="portfolio-title">Siresi FT UMM</h2>
-								<!-- /portfolio name -->
-								<span class="see-more">Sistem repositori skripsi berbasis PWA (<i>Progressive Web App</i>) yang dibangun menggunakan library React.js dan Redux.js</span>
+			<?php 
+				$arrlength = count($portfolio);
+				for ($i = 0; $i < $arrlength; $i++){
+					$imageurl = 'assets/img/portfolio/'.$portfolio[$i]['image'];
+					$thumburl = 'assets/img/portfolio/'.$portfolio[$i]['thumb'];
+			?>
+				<div class="col-lg-4">
+					<div class="portfolio-item filter-item cat-cultural cat-nodejs">
+						<a href="<?php echo base_url($imageurl); ?>" 
+							class="portfolio-thumbnail fancybox" 
+							rel="portfolio" 
+							data-caption="<?php echo $portfolio[$i]['desc']; ?>" 
+							style="background-image: url(<?php echo base_url($thumburl); ?>);">
+							<!-- portfolio-description -->
+							<div class="portfolio-description-wrapper">
+								<div class="portfolio-description">
+									<!-- portfolio name -->
+									<h2 class="portfolio-title"><?php $portfolio[$i]['title']; ?></h2>
+									<!-- /portfolio name -->
+									<span class="see-more"><?php echo $portfolio[$i]['desc']; ?></span>
+								</div>
 							</div>
-						</div>
-						<!-- /portfolio-description -->
-					</a>
+							<!-- /portfolio-description -->
+						</a>
+					</div>
 				</div>
-			</div>
-			<!-- /item -->
-			<!-- item -->
-			<div class="col-lg-4">
-				<div class="portfolio-item filter-item cat-business cat-nodejs">
-					<a href="<?php echo base_url(); ?>assets/img/portfolio/siresi-back-end.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" data-caption="Rest API yang dibangun menggunakan framework Loopback" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/siresi-back-end-thumb.jpg');">
-						<!-- portfolio-description -->
-						<div class="portfolio-description-wrapper">
-							<div class="portfolio-description">
-								<!-- portfolio name -->
-								<h2 class="portfolio-title">Rest API for Siresi FT UMM</h2>
-								<!-- /portfolio name -->
-								<span class="see-more">Rest API yang dibangun menggunakan framework Loopback</span>
-							</div>
-						</div>
-						<!-- /portfolio-description -->
-					</a>
-				</div>
-			</div>
-			<!-- /item -->
-			<!-- item -->
-			<div class="col-lg-4">
-				<div class="portfolio-item filter-item cat-cultural cat-php">
-					<a href="<?php echo base_url(); ?>assets/img/portfolio/basribasren-portfolio.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" data-caption="Website portofolio yang dibangun menggunakan framework Codeigniter dan kondep HMVC(Hierarchical Model View Controller)" style="background-image: url('<?php echo base_url(); ?>assets/img/portfolio/basribasren-portfolio-thumb.jpg');">
-						<!-- portfolio-description -->
-						<div class="portfolio-description-wrapper">
-							<div class="portfolio-description">
-								<!-- portfolio name -->
-								<h2 class="portfolio-title">My Portfolio Website</h2>
-								<!-- /portfolio name -->
-								<span class="see-more">Website portofolio yang dibangun menggunakan framework Codeigniter dan kondep HMVC (<i>Hierarchical Model View Controller</i>)</span>
-							</div>
-						</div>
-						<!-- /portfolio-description -->
-					</a>
-				</div>
-			</div>
-			<!-- /item -->
-			<!-- item -->
+			<?php
+				}
+			?>
 			<!-- /item -->
 		</div>
 		<!-- /portfolio list -->

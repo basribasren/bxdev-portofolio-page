@@ -28,6 +28,47 @@
   color: #ffffff;
 }
 </style>
+
+<?php 
+$certificate = array(
+	array(
+		'cert_image' => 'Database Desaign and Programming With SQL.jpg',
+		'cert_desc' =>'Certificate Database Desaign and Programming With SQL From Oracle',
+		'cert_thumb' => 'oracle-thumb.png',
+		'cert_title' => 'Database Desaign and Programming With SQL',
+		'cert_date' => 'November 5, 2015',
+	),
+	array(
+		'cert_image' => 'Database Programming With SQL.jpg',
+		'cert_desc' =>'Certificate Database Programming With SQL From Oracle',
+		'cert_thumb' => 'oracle-thumb.png',
+		'cert_title' => 'Database Programming With SQL',
+		'cert_date' => 'November 5, 2015',
+	),
+	array(
+		'cert_image' => 'Sertificate Competence-01.jpg',
+		'cert_desc' =>'Certificate Competence From Badan Nasional Sertifikasi Profesi (BNSP)',
+		'cert_thumb' => 'bnsp-thumb.png',
+		'cert_title' => 'Certificate Competence',
+		'cert_date' => '21 Februari 2019',
+	),
+	array(
+		'cert_image' => 'Sertificate Competence-02.jpg',
+		'cert_desc' =>'Certificate Competence From Badan Nasional Sertifikasi Profesi (BNSP)',
+		'cert_thumb' => 'bnsp-thumb.png',
+		'cert_title' => 'Certificate Competence',
+		'cert_date' => '21 Februari 2019',
+	),
+	array(
+		'cert_image' => 'Sertifikat Pembinaan Karir.jpg',
+		'cert_desc' =>'Sertifikat Pembinaan Karir From Universitas Muhammadiyah Malang (UMM)',
+		'cert_thumb' => 'umm-thumb.png',
+		'cert_title' => 'Sertifikat Pembinaan Karir',
+		'cert_date' => '19 Februari 2019',
+	),
+);
+?>
+
 <div class="section contrast" id="certificate">
 	<div class="container">			
 		<!-- Section Title -->
@@ -36,99 +77,31 @@
 
 		<!-- certificate Carousel List -->
 		<div class="certificate-carousel owl-carousel owl-theme owl-loaded" id="certificate-carousel">
-			<!-- <div class="owl-stage-outer"> -->
-		        <!-- <div class="owl-stage"> -->
-					<!-- item -->
-					<div class="portfolio-item item">
-						<a href="<?php echo base_url(); ?>assets/img/certificate/Database Desaign and Programming With SQL.jpg" 
-							class="certificate-thumbnail fancybox" 
-							data-caption="Certificate Database Desaign and Programming With SQL From Oracle" 
-							style="background-image: url('<?php echo base_url(); ?>assets/img/certificate/oracle-thumb.png');"
-						>
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<h2 class="portfolio-title">Database Desaign and Programming With SQL</h2>
-									<span class="see-more">November 5, 2015</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
+			<!-- item -->
+			<?php 
+				$arrlength = count($certificate);
+				for ($i = 0; $i < $arrlength; $i++){
+					$image = 'assets/img/certificate/'.$certificate[$i]['cert_image'];
+					$thumb = 'assets/img/certificate/'.$certificate[$i]['cert_thumb'];
+			?>
+			<div class="portfolio-item item">
+				<a href="<?php echo base_url($image); ?>" 
+					class="certificate-thumbnail fancybox" 
+					data-caption="<?php echo $certificate[$i]['cert_desc'] ?>" 
+					style="background-image: url('<?php echo base_url($thumb); ?>');"
+				>
+					<div class="portfolio-description-wrapper">
+						<div class="portfolio-description">
+							<h2 class="portfolio-title"><?php echo $certificate[$i]['cert_title']; ?></h2>
+							<span class="see-more"><?php echo $certificate[$i]['cert_date']; ?></span>
+						</div>
 					</div>
-					<!-- /item -->
-					<!-- item -->
-					<div class="portfolio-item item">
-						<a href="<?php echo base_url(); ?>assets/img/certificate/Database Programming With SQL.jpg" 
-							class="certificate-thumbnail fancybox" 
-							data-caption="Certificate Database Programming With SQL From Oracle" 
-							style="background-image: url('<?php echo base_url(); ?>assets/img/certificate/oracle-thumb.png');"
-						>
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<h2 class="portfolio-title">Database Programming With SQL</h2>
-									<span class="see-more">November 5, 2015</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
-					</div>
-					<!-- /item -->
-					<!-- item -->
-					<div class="portfolio-item item">
-						<a href="<?php echo base_url(); ?>assets/img/certificate/Sertificate Competence-01.jpg" 
-							class="certificate-thumbnail fancybox" 
-							data-caption="Certificate Competence From Badan Nasional Sertifikasi Profesi (BNSP)" 
-							style="background-image: url('<?php echo base_url(); ?>assets/img/certificate/bnsp-thumb.png');"
-						>
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<h2 class="portfolio-title">Certificate Competence</h2>
-									<span class="see-more">21 Februari 2019</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
-					</div>
-					<!-- /item -->
-					<!-- item -->
-					<div class="portfolio-item item">
-						<a href="<?php echo base_url(); ?>assets/img/certificate/Sertificate Competence-02.jpg" 
-							class="certificate-thumbnail fancybox" 
-							data-caption="Certificate Competence From Badan Nasional Sertifikasi Profesi (BNSP)" 
-							style="background-image: url('<?php echo base_url(); ?>assets/img/certificate/bnsp-thumb.png');"
-						>
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<h2 class="portfolio-title">Certificate Competence</h2>
-									<span class="see-more">21 Februari 2019</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
-					</div>
-					<!-- /item -->
-					<!-- item -->
-					<div class="portfolio-item item">
-						<a href="<?php echo base_url(); ?>assets/img/certificate/Sertifikat Pembinaan Karir.jpg" 
-							class="certificate-thumbnail fancybox" 
-							data-caption="Sertifikat Pembinaan Karir From Universitas Muhammadiyah Malang (UMM)" 
-							style="background-image: url('<?php echo base_url(); ?>assets/img/certificate/umm-thumb.png');"
-						>
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<h2 class="portfolio-title">Sertifikat Pembinaan Karir</h2>
-									<span class="see-more">19 Februari 2019</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
-					</div>
-				<!-- </div> -->
-			<!-- </div> -->
+				</a>
+			</div>
+			<?php
+				}
+			?>
+			<!-- /item -->
 		</div>
 		<!-- / clients Carousel List -->
 	</div>			

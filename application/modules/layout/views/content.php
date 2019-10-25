@@ -7,7 +7,7 @@
 	    'aboutme' => 'My name is Basri Basren and I am a web developer. The skills I have in the field of web development include building a website using several NodeJS frameworks including, using framework express.js and loopback. In addition, I can also use the react.js library in building component-based websites. Besides using framework NodeJS, I can also use several PHP frameworks such as Codeigniter and Laravel in creating websites.'
 	);
 	$contact = array(
-	    'address' => 'Jalan Raya Jetis No.53 Desa Mulyoagung Kecamatan DAU – Malang – Jawa Timur',
+	    'address' => 'Jalan Kapal Layar No.5 Kelurahan Loktuan Kecamatan Bontang Utara – Bontang – Kalimantan Timur',
 	    'email' => 'basri.basreen@gmail.com',
 	    'phone' => '+62 8233 5888 691',
 	    'whatsapp' => '+62 8134 7197 274'

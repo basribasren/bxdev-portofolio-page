@@ -1,3 +1,4 @@
+
 <style type="text/css" media="screen">
 	
 /* ==========================================================
@@ -61,48 +62,50 @@
   line-height: 16px;
 }
 </style>
+
+<?php 
+$feature = array(
+	array(
+		'icon' => 'fas fa-globe',
+		'title' =>'Web Development',
+		'desc' => 'Develop web using PHP or NodeJS Framework'
+	),
+	array(
+		'icon' => 'fas fa-server',
+		'title' =>'Back-End Development',
+		'desc' => 'Develop Back-end web'
+	),
+	array(
+		'icon' => 'fas fa-code',
+		'title' =>'REST API Development',
+		'desc' => 'Develop Rest API with Documentation'
+	),
+);
+?>
+
 <div class="section section-features" id="features">
 	<div class="container">	
 		<!-- Features -->
 		<div class="row">				
 			<!-- item -->
-			<div class="col-md-4">
-				<div class="feature-item">
-					<div class="feature-icon">
-						<span><i class="fas fa-globe"></i></span>
-					</div>
-					<h2 class="feature-title">Web Development</h2>
-					<div class="feature-description">
-						<p>Develop web using PHP or NodeJS Framework</p>
-					</div>
-				</div>					
-			</div>
-			<!-- /item -->
-			<!-- item -->
-			<div class="col-md-4">
-				<div class="feature-item">
-					<div class="feature-icon">
-						<span><i class="fas fa-server"></i></span>
-					</div>
-					<h2 class="feature-title">Back-End Development</h2>
-					<div class="feature-description">
-						<p>Develop Back-end web</p>
-					</div>
-				</div>					
-			</div>
-			<!-- /item -->
-			<!-- item -->
-			<div class="col-md-4">
-				<div class="feature-item">
-					<div class="feature-icon">
-						<span><i class="fas fa-code"></i></span>
-					</div>
-					<h2 class="feature-title">REST API Development</h2>
-					<div class="feature-description">
-						<p>Develop Rest API with Documentation</p>
-					</div>
-				</div>					
-			</div>
+			<?php 
+				$arrlength = count($feature);
+				for ($i = 0; $i < $arrlength; $i++){
+			?>
+				<div class="col-md-4">
+					<div class="feature-item">
+						<div class="feature-icon">
+							<span><i class="<?php echo $feature[$i]['icon']; ?>"></i></span>
+						</div>
+						<h2 class="feature-title"><?php echo $feature[$i]['title']; ?></h2>
+						<div class="feature-description">
+							<p><?php echo $feature[$i]['desc']; ?></p>
+						</div>
+					</div>					
+				</div>
+			<?php
+				}
+			?>
 			<!-- /item -->
 		</div>
 		<!-- /features -->	

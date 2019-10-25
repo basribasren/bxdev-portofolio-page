@@ -151,15 +151,16 @@
 }
 
 .navbar-brand img {
-    width: 100%;
+    width: 30%;
 }
+
 </style>
 <header id="header">
     <div class="container">
         <nav class="navbar navbar-expand-lg justify-content-between">
             <!-- logo -->
             <a class="navbar-brand" href="#hero1">
-                <img src="<?php echo base_url(); ?>assets/img/logo.png" alt="">
+                <img src="<?php echo base_url(); ?>assets/img/logo-1.png" alt="">
             </a>
             <!-- /logo -->
             <!-- Collapse Button -->
@@ -186,10 +187,13 @@
                         <a class="nav-link" href="#experience">Experience</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#certificate">Sertificate</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#testimonials">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#clients">Clients</a>
