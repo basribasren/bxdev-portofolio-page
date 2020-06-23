@@ -126,18 +126,21 @@
 <?php 
 $portfolio = array(
 	array(
+		'tech' => 'nodejs',
 		'image' => 'siresi-front-end.jpg',
 		'thumb' => 'siresi-front-end-thumb.jpg',
 		'title' =>'Siresi FT UMM',
 		'desc' => 'Sistem repositori skripsi berbasis PWA (<i>Progressive Web App</i>) yang dibangun menggunakan library React.js dan Redux.js'
 	),
 	array(
+		'tech' => 'nodejs',
 		'image' => 'siresi-back-end.jpg',
 		'thumb' => 'siresi-back-end-thumb.jpg',
 		'title' =>'Rest API for Siresi FT UMM',
 		'desc' => 'Rest API yang dibangun menggunakan framework Loopback'
 	),
 	array(
+		'tech' => 'php',
 		'image' => 'basribasren-portfolio.jpg',
 		'thumb' => 'basribasren-portfolio-thumb.jpg',
 		'title' =>'My Portfolio Website',
@@ -170,9 +173,10 @@ $portfolio = array(
 				for ($i = 0; $i < $arrlength; $i++){
 					$imageurl = 'assets/img/portfolio/'.$portfolio[$i]['image'];
 					$thumburl = 'assets/img/portfolio/'.$portfolio[$i]['thumb'];
+					$type = 'cat-'.$portfolio[$i]['tech'];
 			?>
 				<div class="col-lg-4">
-					<div class="portfolio-item filter-item cat-cultural cat-nodejs">
+					<div class="portfolio-item filter-item cat-cultural <?php echo $type ?>">
 						<a href="<?php echo base_url($imageurl); ?>" 
 							class="portfolio-thumbnail fancybox" 
 							rel="portfolio" 

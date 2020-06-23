@@ -9,8 +9,8 @@
 	$contact = array(
 	    'address' => 'Jalan Kapal Layar No.5 Kelurahan Loktuan Kecamatan Bontang Utara – Bontang – Kalimantan Timur',
 	    'email' => 'basri.basreen@gmail.com',
-	    'phone' => '+62 8233 5888 691',
-	    'whatsapp' => '+62 8134 7197 274'
+	    'phone' => '+62 821 5775 9313',
+	    'whatsapp' => '+62 821 5775 9313'
 	);
 	$social = array(
 	    'instagram' => 'https://www.instagram.com/basribasreen/',
@@ -75,8 +75,9 @@
 	</div>
 	<!-- /Double Section -->
 	
+	<!-- STILL IN DRAFT -->
 	<!-- Section: Clients -->	
-	<?php $this->load->view('home/section_client') ?>
+	<!-- $this->load->view('home/section_client') -->
 	<!-- /Section: Clients -->
 
 	<!-- Section: Contact -->	
