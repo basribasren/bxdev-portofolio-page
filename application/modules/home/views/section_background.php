@@ -2,7 +2,7 @@
 	<div class="container">
 		<h2 class="title1">Looking for a Professional?</h2>
 		<p>Request a web development! I will be happy to help.</p>
-		<a href="https://bxdev.herokuapp.com" class="btn btn-default">
+		<a href="https://bontangxdev.herokuapp.com" class="btn btn-default">
 			Click here
 		</a>
 		<!-- <a href="" class="btn btn-default">

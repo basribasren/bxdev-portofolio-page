@@ -8,8 +8,8 @@
       <a href="<?php echo $facebook ?>" target=_blank rel="noopener">
       	<span><i class="fab fa-facebook"></i></span>
       </a>
-      <a href="<?php echo $twitch ?>" target=_blank rel="noopener">
-      	<span><i class="fab fa-twitch"></i></span>
+      <a href="<?php echo $whatsapp ?>" target=_blank rel="noopener">
+      	<span><i class="fab fa-whatsapp"></i></span>
       </a>
       <a href="<?php echo $linkedin ?>" target=_blank rel="noopener">
       	<span><i class="fab fa-linkedin"></i></span>

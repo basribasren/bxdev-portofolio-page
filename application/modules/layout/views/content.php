@@ -15,13 +15,13 @@
 	$social = array(
 	    'instagram' => 'https://www.instagram.com/basribasreen/',
 	    'facebook' => 'https://web.facebook.com/basri.basreen',
-	    'twitch' => 'https://www.twitch.tv/onestep13',
+	    'whatsapp' => 'https://wa.me/6282157759313',
 	    'linkedin' => 'https://www.linkedin.com/in/basrioffi/',
 	    'github' => 'https://github.com/basribasren'
 	);
 ?>
 <!-- home -->
-<section id="body" class="">	
+<section>	
 	<!-- Section: Mini Hero -->
 	<?php $this->load->view('home/section_hero', $hero) ?>
 	<!-- /Section: Mini Hero -->
@@ -60,12 +60,13 @@
 			<!-- row -->
 			<div class="row">
 				<!-- Col -->
-				<div class="col-md-6">
-					<?php $this->load->view('home/section_testimonials') ?>
-				</div>
+				<!-- <div class="col-md-6">
+					STILL IN DRAFT
+					$this->load->view('home/section_testimonials')
+				</div> -->
 				<!-- /Col -->
 				<!-- Col -->
-				<div class="col-md-6">
+				<div class="col-md-12">
 					<?php $this->load->view('home/section_skill') ?>
 				</div>
 				<!-- /Col -->

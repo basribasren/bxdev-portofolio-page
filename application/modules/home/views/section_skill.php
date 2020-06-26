@@ -105,53 +105,59 @@ $app_skill = array(
     <!-- Section Title -->
     <h2 class="title-of-section text-right">Skills</h2>
     <!-- /Section Title -->
-    <!-- Item Title -->
-    <h3 class="title4"><i class="fa fa-users"></i>&nbsp;&nbsp; Professional Skills</h3>
-    <!-- /Item Title -->
-    <!-- Skils List -->
-    <ul class="skills-list">
-        <?php 
-            $arrlength = count($soft_skill);
-            for ($i = 0; $i < $arrlength; $i++){
-        ?>
-        <!-- item-list -->
-        <li>
-            <div class="progress">
-                <div class="progress-bar <?php echo $soft_skill[$i]['class'] ?>" role="progressbar" data-percent="<?php echo $soft_skill[$i]['complete'] ?>%" style="width: <?php echo $soft_skill[$i]['complete']; ?>%;">
-                    <span class="sr-only">% Complete</span>
-                </div>
-                <span class="progress-type"><?php echo $soft_skill[$i]['type']; ?></span>
-                <span class="progress-completed"><span class="counter"><?php echo $soft_skill[$i]['complete']; ?></span>%</span>
-            </div>
-        </li>
-        <!-- /item list -->
-        <?php } ?>
-    </ul>
-    <!-- /Skils List -->
-    <!-- Item Title -->
-    <h3 class="title4"><i class="fa fa-laptop"></i>&nbsp;&nbsp; Software Skills</h3>
-    <!-- /Item Title -->
-    <!-- Skils List -->
-    <ul class="skills-list">
-        <!-- item-list -->
-        <?php 
-            $arrlength = count($app_skill);
-            for ($i = 0; $i < $arrlength; $i++){
-        ?>
-        <!-- item-list -->
-        <li>
-            <div class="progress">
-                <div class="progress-bar <?php echo $app_skill[$i]['class'] ?>" role="progressbar" data-percent="<?php echo $app_skill[$i]['complete'] ?>%" style="width: <?php echo $app_skill[$i]['complete']; ?>%;">
-                    <span class="sr-only">% Complete</span>
-                </div>
-                <span class="progress-type"><?php echo $app_skill[$i]['type']; ?></span>
-                <span class="progress-completed"><span class="counter"><?php echo $app_skill[$i]['complete']; ?></span>%</span>
-            </div>
-        </li>
-        <!-- /item list -->
-        <?php } ?>
-        <!-- /item list -->
-    </ul>
-    <!-- /Skils List -->
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Item Title -->
+            <h3 class="title4"><i class="fa fa-users"></i>&nbsp;&nbsp; Professional Skills</h3>
+            <!-- /Item Title -->
+            <!-- Skils List -->
+            <ul class="skills-list">
+                <?php 
+                    $arrlength = count($soft_skill);
+                    for ($i = 0; $i < $arrlength; $i++){
+                ?>
+                <!-- item-list -->
+                <li>
+                    <div class="progress">
+                        <div class="progress-bar <?php echo $soft_skill[$i]['class'] ?>" role="progressbar" data-percent="<?php echo $soft_skill[$i]['complete'] ?>%" style="width: <?php echo $soft_skill[$i]['complete']; ?>%;">
+                            <span class="sr-only">% Complete</span>
+                        </div>
+                        <span class="progress-type"><?php echo $soft_skill[$i]['type']; ?></span>
+                        <span class="progress-completed"><span class="counter"><?php echo $soft_skill[$i]['complete']; ?></span>%</span>
+                    </div>
+                </li>
+                <!-- /item list -->
+                <?php } ?>
+            </ul>
+            <!-- /Skils List -->
+        </div>
+        <div class="col-md-6">
+            <!-- Item Title -->
+            <h3 class="title4"><i class="fa fa-laptop"></i>&nbsp;&nbsp; Software Skills</h3>
+            <!-- /Item Title -->
+            <!-- Skils List -->
+            <ul class="skills-list">
+                <!-- item-list -->
+                <?php 
+                    $arrlength = count($app_skill);
+                    for ($i = 0; $i < $arrlength; $i++){
+                ?>
+                <!-- item-list -->
+                <li>
+                    <div class="progress">
+                        <div class="progress-bar <?php echo $app_skill[$i]['class'] ?>" role="progressbar" data-percent="<?php echo $app_skill[$i]['complete'] ?>%" style="width: <?php echo $app_skill[$i]['complete']; ?>%;">
+                            <span class="sr-only">% Complete</span>
+                        </div>
+                        <span class="progress-type"><?php echo $app_skill[$i]['type']; ?></span>
+                        <span class="progress-completed"><span class="counter"><?php echo $app_skill[$i]['complete']; ?></span>%</span>
+                    </div>
+                </li>
+                <!-- /item list -->
+                <?php } ?>
+                <!-- /item list -->
+            </ul>
+            <!-- /Skils List -->
+        </div>
+    </div>
 </div>
 <!-- /Section: Skills -->

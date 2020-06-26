@@ -38,25 +38,15 @@
 		
 		<!-- Main Styles -->
 		<link href="<?php echo base_url(); ?>assets/css/styles.css" rel="stylesheet">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
 	</head>
 
-	<body class="">
-		<!-- Page Loader -->
-		<div class="loader-container" id="page-loader"> 
-		  <div class="loading-wrapper loading-wrapper-hide">
-		    <div class="loader-animation" id="loader-animation">
-		        <svg class="svg-loader" width=100 height=100>
-		          <circle cx=50 cy=50 r=25 />
-		        </svg>
-		    </div>    
-		    <!-- Edit With Your Name -->
-		    <div class="loader-name" id="loader-name">
-		      <img src="<?php echo base_url(); ?>assets/img/logo-negative.png" alt="">
-		    </div>
-		    <!-- /Edit With Your Name -->
-		  </div>   
-		</div>
-		<!-- /End of Page loader -->
+	<body>
 
 		<!-- header -->
 		<?php $this->load->view('layout/header') ?>
@@ -66,6 +56,30 @@
 
 		<!-- footer -->
 		<?php $this->load->view('layout/footer') ?>
+
+		<!-- Page Loader -->
+		<div class="loader-container" id="page-loader">
+			<div class="sk-circle">
+		        <div class="sk-circle1 sk-child"></div>
+		        <div class="sk-circle2 sk-child"></div>
+		        <div class="sk-circle3 sk-child"></div>
+		        <div class="sk-circle4 sk-child"></div>
+		        <div class="sk-circle5 sk-child"></div>
+		        <div class="sk-circle6 sk-child"></div>
+		        <div class="sk-circle7 sk-child"></div>
+		        <div class="sk-circle8 sk-child"></div>
+		        <div class="sk-circle9 sk-child"></div>
+		        <div class="sk-circle10 sk-child"></div>
+		        <div class="sk-circle11 sk-child"></div>
+		        <div class="sk-circle12 sk-child"></div>
+		    </div>
+			<div class="loader-animation" id="loader-animation">
+		        <svg class="svg-loader" width=100 height=100>
+		          <circle cx=50 cy=50 r=25 />
+		        </svg>
+		    </div>
+		</div>
+		<!-- /End of Page loader -->
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
